@@ -1,0 +1,131 @@
+@import './variables.scss';
+
+  nav {
+    background: $navBackgroundColor;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    color: $navTextColor;
+    text-decoration: none;
+  }
+
+  .menu li {
+    font-size: 18px;
+    padding: 15px 5px;
+    white-space: nowrap;
+    transition: background-color .4s ease-in-out;
+  }
+
+  .menu li:hover:not(.logo):not(.button):not(.toggle) {
+    background-color: $menuItemHoverColor;
+  }
+
+  .menu li:hover:not(.logo) a {
+    color: $navTextColorHover;
+  }
+
+  .menu li.button {
+    transition: background-color .4s ease-in-out;
+  }
+
+  .menu li.button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .menu .button.secondary {
+    border-bottom: 1px $menuLineColor solid;
+  }
+
+  /* Mobile menu */
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .toggle {
+    order: 1;
+    margin-right: 5px;
+  }
+
+  .item.button {
+    order: 2;
+  }
+
+  .item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+  }
+
+  .item.active {
+    display: block;
+  }
+
+  /* Tablet menu */
+  @media screen and (min-width: 600px) {
+    .logo {
+      flex: 1;
+    }
+
+    .toggle {
+      flex: 1;
+      text-align: right;
+    }
+
+    .item.button {
+      width: auto;
+      order: 1;
+      display: block;
+    }
+
+    .menu .button.secondary {
+      border: 0;
+    }
+  }
+
+  /* Desktop menu */
+  @media screen and (min-width: 900px) {
+    .item {
+      display: block;
+      width: auto;
+    }
+
+    .toggle {
+      display: none;
+    }
+
+    .logo {
+      order: 0;
+    }
+
+    .item {
+      order: 1;
+    }
+
+    .button {
+      order: 2;
+    }
+
+    .menu li.button:not(.secondary)  {
+      border-left: 1px $menuLineColor solid;
+    }
+
+    .menu .button.secondary {
+      border: 0;
+    }
+
+    .menu li {
+      padding: 15px 10px;
+    }
+  }
+
+  .star {
+    color: $navTextColor
+  }
