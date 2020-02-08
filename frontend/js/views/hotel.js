@@ -1,9 +1,15 @@
 import $ from 'jquery';
+import '../../style/hotel.scss';
 
-export const home = () => {
+export const hotel = () => {
     const fragment = $(new DocumentFragment());
   
-    fragment.append();
+    fragment.append(`
+    <div class="hotelRooms">
+        <div class="hotelShadow">
+        <div>
+    </div>
+    `);
   
     
   

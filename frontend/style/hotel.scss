@@ -1,0 +1,22 @@
+.hotelRooms {
+  background-image: url('../assets/img/hotel2.jpg');
+  height: 100vh;
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.hotelShadow {
+  background-color: rgba(0, 0, 0, 0.37);
+  height: 100vh;
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
