@@ -1,6 +1,10 @@
-.hotelRooms {
-  background-image: url('../assets/img/hotel2.jpg');
+@import './quantityInput.scss';
+@import './checkBox.scss';
+
+.backgroundRooms {
+  background-image: url('../assets/img/hotel.jpg');
   height: 100vh;
+  width: 100%;
   min-height: 100%;
   min-width: 100%;
   background-size: cover;
@@ -9,6 +13,40 @@
   bottom: 0;
   z-index: -1;
 }
+
+.mainPanel {
+  display: flex;
+  height: auto;
+  // width: 100%;
+  // justify-content: center;
+  // align-items: center;
+  margin: 20px;
+  // background-color: rgba(0, 0, 0, 0.37);
+  // position: fixed;
+  // margin: 52px;
+  // margin-bottom: 52px;
+  // margin-right: 52px;
+}
+
+.settingsPanel {
+  background-color: $settingsPanelBackgroundColor;
+  height: 100%;
+  width: 30%;
+}
+
+.checkBoxSetting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $settingsPanelTextColor;
+  // margin: 10px;
+}
+
+.settingTitle {
+  display: block;
+  margin-left: 10px;
+}
+
 
 .hotelShadow {
   background-color: rgba(0, 0, 0, 0.37);

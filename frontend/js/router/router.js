@@ -32,6 +32,7 @@ export class Router {
 
       this.outlet.empty().append(nav()).hide().show(1500);
       this.outlet.append(component());
+      
     } else {
       this.outlet.empty().append(badPath());
     }
