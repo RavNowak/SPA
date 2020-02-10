@@ -29,17 +29,43 @@
 }
 
 .settingsPanel {
-  background-color: $settingsPanelBackgroundColor;
+  // background-color: $settingsPanelBackgroundColor;
   height: 100%;
-  width: 30%;
+  width: 26%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 20px solid rgba(68, 1, 1, 0.404);
+}
+
+.guestsBox {
+  background-color: $settingsPanelBackgroundColor;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px 0;
+  font-size: 18px;
+}
+
+.optionsBox {
+  background-color: $settingsPanelBackgroundColor;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .checkBoxSetting {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: $settingsPanelTextColor;
-  // margin: 10px;
+  background-color: rgba(255, 51, 0, 0.233);
+  width: 100px;
+  height: 100px;
+  margin: 10px;
 }
 
 .settingTitle {

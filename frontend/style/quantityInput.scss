@@ -2,9 +2,11 @@
 
 .quantityBox {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  // flex-direction: column;
   color: $settingsPanelTextColor;
+  width: 100%;
   }
  
   input[type=number]::-webkit-inner-spin-button,
@@ -20,9 +22,8 @@
   }
   
   .quantityBox input {
-    width: 100%;
+    // width: 100%;
     height: 42px;
-    float: left;
     text-align: center;
     background: transparent;
     border: none;
@@ -34,42 +35,42 @@
   }
   
   .quantity-nav {
-    float: left;
+    // width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    height: 42px;
   }
-  
-  .quantity-button {
+
+  @mixin quantity-button {
     position: relative;
     cursor: pointer;
-    width: 40px;
     text-align: center;
     color: $settingsPanelTextColor;
-    // font-size: 13px;
     font-weight: bold;
-    line-height: 1.7;
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
   }
+  
+  .quantity-button-plus {
+    @include quantity-button;
+    margin-right: 8px;
+  }
 
-  .quantity-button:hover {
+  .quantity-button-minus {
+    margin-left: 8px;
+    @include quantity-button;
+  }
+
+  .quantity-button-plus:hover {
     color: $settingsPanelTextColorHover;
     background-color: $settingsPanelItemColorHover;
   }
-  
-  .quantity-button.quantity-up {
-    position: absolute;
-    height: 50%;
-    top: 0;
-  }
-  
-  .quantity-button.quantity-down {
-    position: absolute;
-    bottom: -1px;
-    height: 50%;
+
+  .quantity-button-minus:hover {
+    color: $settingsPanelTextColorHover;
+    background-color: $settingsPanelItemColorHover;
   }
