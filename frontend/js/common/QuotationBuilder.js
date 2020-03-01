@@ -1,6 +1,5 @@
 import '../../style/home.scss';
 import '../../style/fonts.scss';
-import $ from 'jquery';
 
 export class QuotationBuilder {
     constructor() {

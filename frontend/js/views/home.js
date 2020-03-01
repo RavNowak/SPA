@@ -1,4 +1,3 @@
-import $ from 'jquery';
 import intro from '../../assets/video/intro.mp4';
 import { QuotationBuilder } from '../common/QuotationBuilder'
 

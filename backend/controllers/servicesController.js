@@ -1,4 +1,4 @@
-const { getAllServices } = require('../models/index');
+const { getAllServices } = require('../models/model');
 
 module.exports = {
     getAllServicesController: async (req, res) => {

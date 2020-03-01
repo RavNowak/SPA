@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:rest": "nodemon ./backend/server.js",
-    "start:app": "parcel ./frontend/htdocs/index.html --open"
+    "start:app": "parcel -p 3000 ./frontend/htdocs/index.html --open"
   },
   "repository": {
     "type": "git",
@@ -22,13 +22,12 @@
   },
   "homepage": "https://github.com/RavNowak/SPA#readme",
   "devDependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.2",
-    "parcel-bundler": "^1.12.4",
-    "sass": "^1.25.1-test.1"
+    "express": "4.17.1",
+    "nodemon": "2.0.2",
+    "parcel-bundler": "1.12.4",
+    "sass": "1.25.1-test.1"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
-    "moment": "^2.24.0"
+    "cors": "2.8.5"
   }
 }

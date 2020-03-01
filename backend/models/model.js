@@ -6,5 +6,11 @@ module.exports = {
     const data = await fs.readFile(path.resolve(__dirname, './database.json'));
 
     return JSON.parse(data).treatments;
+  },
+
+  getAllRooms: async () => {
+    const data = await fs.readFile(path.resolve(__dirname, './database.json'));
+
+    return JSON.parse(data).rooms;
   }
 }

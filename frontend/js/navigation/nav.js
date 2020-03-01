@@ -1,4 +1,3 @@
-import $ from 'jquery';
 import '../../style/nav.scss';
 
 const toogleMobileAndTabletIcon = () => {
@@ -31,7 +30,7 @@ export const nav = () => {
           </li>
           <li class="item"><a href="home">Home</a></li>
           <li class="item"><a href="hotel">Hotel</a></li>
-          <li class="item"><a href="rooms">Services</a></li>
+          <li class="item"><a href="services">Services</a></li>
           <li class="item"><a href="#">Opinions</a></li>
           <li class="item"><a href="#">Contact</a></li>
           <li class="item button"><a href="#">Log In</a></li>

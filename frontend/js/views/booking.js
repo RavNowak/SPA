@@ -1,5 +1,3 @@
-import $ from 'jquery';
-
 export const booking = () => {
     const fragment = $(new DocumentFragment());
 

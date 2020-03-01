@@ -1,6 +1,6 @@
 export * from './home';
 export * from './booking';
 export * from './rooms';
-export * from './treatments';
+export * from './services';
 export * from './badPath';
 export * from './hotel';

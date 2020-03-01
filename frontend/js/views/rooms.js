@@ -1,5 +1,3 @@
-import $ from 'jquery';
-
 export const rooms = () => {
     const fragment = $(new DocumentFragment());
 

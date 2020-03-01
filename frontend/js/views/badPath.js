@@ -1,5 +1,3 @@
-import $ from 'jquery';
-
 export const badPath = () => {
     const fragment = $(new DocumentFragment());
 

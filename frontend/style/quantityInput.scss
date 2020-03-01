@@ -2,9 +2,8 @@
 
 .quantityBox {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  // flex-direction: column;
   color: $settingsPanelTextColor;
   width: 100%;
   }
@@ -22,7 +21,6 @@
   }
   
   .quantityBox input {
-    // width: 100%;
     height: 42px;
     text-align: center;
     background: transparent;
@@ -35,7 +33,6 @@
   }
   
   .quantity-nav {
-    // width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
