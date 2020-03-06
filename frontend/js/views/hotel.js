@@ -195,6 +195,43 @@ const isDateSet = () =>
   return $('.dateInput').text().includes('-');
 }
 
+const createMainOffersInfo = (which, matchedOffers) => {
+  const html = `
+      <div class="mainOffersInfo">
+          <div class="offerItem">Type of room: ${matchedOffers[ which ].name}</div>
+          <div class="offerItem">Max number of guests: ${matchedOffers[ which ].guests}</div>
+          <div class="offerItem">Beds: ${matchedOffers[ which ].beds}</div>
+          <div class="offerItem">Price: ${matchedOffers[ which ].price}$</div>
+        </div>`;
+
+  return html;
+}
+
+const createAdditionalOffersInfo = (which, matchedOffers) => {
+  const html = `
+      <div class="additionalOffersInfo">
+          <div class="offerItem">Children ${drawTickOrCross(matchedOffers[ which ].children)}</div>
+          <div class="offerItem">Pets ${drawTickOrCross(matchedOffers[ which ].pets)}</div>
+          <div class="offerItem">Balcony ${drawTickOrCross(matchedOffers[ which ].balcony)}</div>
+          <div class="offerItem">Jacuzzi ${drawTickOrCross(matchedOffers[ which ].jacuzzi)}</div>
+          <div class="offerItem">Pool ${drawTickOrCross(matchedOffers[ which ].pool)}</div>
+        </div>`;
+
+  return html;
+}
+
+const createOfferButton = () => {
+  const html = `<button type="button" class="offerButton">Want it !</button>`;
+
+  return html;
+}
+
+const createOfferCounter = (which, matchedOffers) => {
+  const html = `<div class="offerItem">${which + 1} / ${matchedOffers.length}</div>`;
+
+  return html;
+}
+
 const drawMatchedOffer = (which) =>
 {
   if (!isDateSet())
@@ -208,7 +245,6 @@ const drawMatchedOffer = (which) =>
 
   roomService.getRooms().then(data =>
   {
-
     offers.setRemote(data);
 
     let matchedOffers = offers.compareSettings();
@@ -217,33 +253,15 @@ const drawMatchedOffer = (which) =>
 
     if (matchedOffers.length > 0)
     {
-      const mainOffersInfo = `
-      <div class="mainOffersInfo">
-          <div class="offerItem">Type of room: ${matchedOffers[ which ].name}</div>
-          <div class="offerItem">Max number of guests: ${matchedOffers[ which ].guests}</div>
-          <div class="offerItem">Beds: ${matchedOffers[ which ].beds}</div>
-          <div class="offerItem">Price: ${matchedOffers[ which ].price}$</div>
-        </div>`;
-
-      const additionalOffersInfo = `
-      <div class="additionalOffersInfo">
-          <div class="offerItem">Children ${drawTickOrCross(matchedOffers[ which ].children)}</div>
-          <div class="offerItem">Pets ${drawTickOrCross(matchedOffers[ which ].pets)}</div>
-          <div class="offerItem">Balcony ${drawTickOrCross(matchedOffers[ which ].balcony)}</div>
-          <div class="offerItem">Jacuzzi ${drawTickOrCross(matchedOffers[ which ].jacuzzi)}</div>
-          <div class="offerItem">Pool ${drawTickOrCross(matchedOffers[ which ].pool)}</div>
-        </div>`;
-
-      const offerCounter = `<div class="offerItem">${which + 1} / ${matchedOffers.length}</div>`;
-
       $('.roomsOffers').ready(() =>
       {
         $('#rightRoomArrow').show();
         $('#leftRoomArrow').show();
 
-        $('.roomsOffers').hide().append(mainOffersInfo)
-          .append(additionalOffersInfo)
-          .append(offerCounter)
+        $('.roomsOffers').hide().append(createMainOffersInfo(which, matchedOffers))
+          .append(createAdditionalOffersInfo(which, matchedOffers))
+          .append(createOfferButton())
+          .append(createOfferCounter(which, matchedOffers))
           .slideDown('800');
       });
     }
@@ -312,11 +330,9 @@ export const hotel = () =>
           <div class="roomPanel">
             ${createRoomOffer()}
           </div>
-
-
         </div>
-      </div>
-    `);
+      </div>`
+      );
 
   return fragment;
 };

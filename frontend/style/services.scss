@@ -1,4 +1,5 @@
 @import '../style/sphere.scss';
+@import './variables.scss';
 
 .backgroundServices {
     background-image: url('../assets/img/services.jpg');
@@ -32,26 +33,69 @@
     // background-color: rgba(255, 0, 0, 0.37);
 
     align-items: center;
-    justify-content: space-between;
 
     display: flex;
+  }
+
+  .mainPanel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90%;
+    // background-color: rgba(255, 0, 0, 0.37);
   }
 
   .sphere {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40%;
+    width: 30%;
     height: 100%;
+    margin-left: 20px;
+    // background-color: rgba(255, 0, 0, 0.37);
   }
 
   .singleService {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 40%;
+    justify-content: space-around;
+    width: 26%;
     height: 100%;
+    margin-right: 20px;
+    background-color: $singleServiceBackgroundColor;
+    font-size: 18px;
+    color: $singleServiceTextColor;
+    border-radius: 10px;
     // background-color: rgba(255, 0, 0, 0.37);
+  }
+
+  .serviceInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .serviceButton {
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: $singleServiceTextColor;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.37);
+    transition: background-color .2s ease-in-out;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .serviceButton:hover {
+    background-color: rgba(0, 0, 0, 0.459);
   }
 
   

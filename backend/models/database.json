@@ -408,52 +408,59 @@
   "treatments": [
     {
       "id": 1,
-      "name": "Masaż rozgrzanym monitorem",
+      "name": "Massage with a hot monitor",
       "area": "back",
       "time": 30,
-      "price": 80
+      "price": 80,
+      "description": "Perfect for tired backs of senior developers"
     },
     {
       "id": 2,
-      "name": "Biczowanie kablem od myszy",
+      "name": "Whipping with a mouse cable",
       "area": "back",
       "time": 20,
-      "price": 70
+      "price": 70,
+      "description": "Whipping is done only with the highest quality cables"
     },
     {
       "id": 3,
-      "name": "Peeling odłamkami płyty CD",
+      "name": "Peeling with CD fragments",
       "area": "face",
       "time": 15,
-      "price": 50
+      "price": 50,
+      "description": "Perfect for young faces of junior developers"
     },
     {
       "id": 4,
-      "name": "Pedicure woskiem z USB",
+      "name": "USB wax pedicure",
       "area": "legs",
       "time": 25,
-      "price": 100
+      "price": 100,
+      "description": "You work in HR and your legs need help ? Choose it !"
     },
     {
       "id": 5,
-      "name": "Manicure analogowo-cyfrowy",
+      "name": "Analog-digital manicure",
       "area": "hands",
       "time": 45,
-      "price": 150
+      "price": 150,
+      "description": "Your hands are tired of holding the mouse 24 hours a day ? Try this !"
     },
     {
       "id": 6,
-      "name": "Kąpiel w gorącej kawie",
+      "name": "Bath in hot coffee",
       "area": "body",
       "time": 60,
-      "price": 200
+      "price": 200,
+      "description": "You are tired and lethargic ? It will charge you"
     },
     {
       "id": 7,
-      "name": "Depilacja dyskiem twardym",
+      "name": "Hair removal with a hard disk",
       "area": "body",
       "time": 45,
-      "price": 120
+      "price": 120,
+      "description": "The treatment ensures 100% smoothness of the legs"
     }
   ]
 }
