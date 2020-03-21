@@ -1,6 +1,3 @@
-import '../../style/home.scss';
-import '../../style/fonts.scss';
-
 export class QuotationBuilder {
     constructor() {
       this.quationCounter = 0;

@@ -1,10 +1,11 @@
-@import './quantityInput.scss';
-@import './checkBox.scss';
-@import './slider.scss';
-@import './datePicker.scss';
+@import '../../../style/quantityInput.scss';
+@import '../../../style/checkBox.scss';
+@import '../../../style/slider.scss';
+@import '../../../style/datePicker.scss';
+@import '../../../style/popUpBox.scss';
 
 .backgroundRooms {
-  background-image: url('../assets/img/hotel.jpg');
+  background-image: url('../../../assets/img/hotel.jpg');
   height: 100vh;
   width: 100%;
   min-height: 100%;
@@ -19,9 +20,8 @@
 }
 
 /* Mobile and Tablet*/
-.homeContainer {
+.hotelContainer {
   width: 100vw;
-  // background-color: rgba(255, 0, 0, 0.37);
 }
 
 .mainPanel {
@@ -31,11 +31,9 @@
   justify-content: center;
   align-items: center;
   margin: 20px 0;
-  // background-color: rgba(255, 0, 0, 0.37);
 }
 
 .settingsPanel {
-  // background-color: $settingsPanelBackgroundColor;
   width: 80%;
   display: flex;
   justify-content: center;
@@ -146,16 +144,15 @@
 }
 
 .leftArrow {
-  background-image: url('../assets/img/left-arrow.png');
+  background-image: url('../../../assets/img/left-arrow.png');
 }
 
 .rightArrow {
-  background-image: url('../assets/img/right-arrow.png');
+  background-image: url('../../../assets/img/right-arrow.png');
 }
 
 .roomsOffers {
   width: 100%;
-  // background-color: blue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -187,19 +184,23 @@
   cursor: pointer;
   color: $singleServiceTextColor;
   border: none;
-  background-color: rgba(134, 119, 218, 0.492);
+  background-color: rgba(37, 32, 61, 0.822);
   transition: background-color .2s ease-in-out;
   font-weight: 600;
   font-size: 15px;
 }
 
 .offerButton:hover {
-  background-color: rgba(134, 119, 218, 0.332);
+  background-color: rgba(37, 32, 61, 0.922);
+}
+
+.offerButton:focus {
+  outline: none;
 }
 
 /* Desktop */
 @media screen and (min-width: 900px) {
-  .homeContainer {
+  .hotelContainer {
     height: calc(100vh - 52px);
     align-items: center;
     display: flex;

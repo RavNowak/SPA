@@ -1,7 +1,7 @@
-import { Cookie } from '../common/Cookie';
-import '../../style/services.scss';
-import { treatmentService } from '../services/treatmentsService';
-import { Offers } from '../common/Offers';
+import './services.scss';
+import { treatmentService } from '../../services/treatmentsService';
+import { Offers } from '../../common/Offers';
+import { InfoBox } from '../../common/PopUpBox';
 
 const TagCloud = require('TagCloud');
 
@@ -69,14 +69,14 @@ const createServiceName = (service) => {
 }
 
 const createServiceInfo = (service) => {
-  const html = `<div class ="serviceInfo"></div>`;
-
-  $('.serviceInfo').ready(() => {
-    $('.serviceInfo')
-      .append(`<div style="margin-bottom:15px;">Price: ${service.price}$</div>`)
-      .append(`<div style="margin-bottom:15px;">Time: ${service.time} min</div>`)
-      .append(`<div>Area: ${service.area}</div>`);
-  });
+  const html = `
+  <div class ="serviceInfo">
+    <div style="margin-bottom:15px;">Price: ${service.price}$</div>
+    <div style="margin-bottom:15px;">Time: ${service.time} min</div>
+    <div style="margin-bottom:50px;">Area: ${service.area}</div>
+    <span style="display:block; margin-bottom:10px;">${service.availability.first}</span>
+    <span style="display:block;">${service.availability.second}</span>
+  </div>`;
 
   return html;
 }
@@ -101,8 +101,7 @@ const createSingleServiceInfo = () => {
     const info = `<div id="initMessage">Choose the treatment you are interested in</div>`;
 
     $('#initMessage').ready(() => {
-      $('#initMessage').css({"text-align":"center", 
-      "font-weight":"600"})
+      $('#initMessage').css({"text-align":"center"})
     })
 
     $('.singleService').append(info);
@@ -114,6 +113,20 @@ const createSingleServiceInfo = () => {
 const createServiceButton = () => {
   const html = `<button type="button" class="serviceButton">Want it !</button>`;
 
+  $('.serviceButton').ready(() => {
+    $('.serviceButton').click(() => {
+      let currentServiceObject = getServiceObject($('#serviceName').html());
+
+      if (!Cookies.get('service_' + currentServiceObject.id)) {
+        Cookies.set('service_' + currentServiceObject.id, JSON.stringify(currentServiceObject));
+        InfoBox.create('Choosen service has been successfully added to your basket');
+      }
+      else {
+        InfoBox.create('Your basket already contains this service');
+      }
+    })
+  })
+
   return html;
 }
 
@@ -122,7 +135,6 @@ export const services = () => {
 
   const html = `
   <div class="backgroundServices"></div>
-  <div class="servicesShadow"></div>
   <div class="servicesContainer">
     <div class="mainPanel">
       ${createSphere()}

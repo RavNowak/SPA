@@ -10190,3 +10190,2852 @@ March 6, 2020 2:06 PM
       method: GET
       URL: /rooms
       params: {}
+March 6, 2020 3:13 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 6, 2020 3:26 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 6, 2020 3:42 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 6, 2020 3:43 PM
+      hostname: localhost
+      clientIP: ::ffff:127.0.0.1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 6, 2020 3:50 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 8, 2020 10:02 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 8, 2020 10:07 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 8, 2020 12:21 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 8, 2020 1:13 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 8, 2020 3:01 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 5:39 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 5:54 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 6:01 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 9, 2020 7:18 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 7:22 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 7:29 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 7:36 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 8:05 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 8:19 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 8:21 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 9, 2020 8:21 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 8:22 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 8:22 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 8:44 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 8:48 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 8:49 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 8:51 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 8:52 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 8:52 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 8:53 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 8:54 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 8:55 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 9, 2020 9:05 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 9, 2020 9:07 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 9, 2020 9:07 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 9, 2020 9:08 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 9, 2020 9:09 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 10, 2020 7:02 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 10, 2020 7:04 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 10, 2020 7:20 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 10, 2020 7:20 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 10, 2020 7:24 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 10, 2020 7:39 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 10, 2020 7:41 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 10, 2020 7:50 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 10, 2020 7:55 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 10, 2020 7:55 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 10, 2020 7:58 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 10, 2020 8:02 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 10, 2020 8:17 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 10, 2020 8:32 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 11, 2020 5:40 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 5:40 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 5:41 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 5:41 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 5:41 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 5:41 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 5:41 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 5:41 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 5:47 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 5:47 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 5:49 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 5:51 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:06 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:09 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:09 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:09 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:09 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:12 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:13 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:14 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:15 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:17 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:17 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:18 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:30 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:30 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:32 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:34 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:40 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:42 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:43 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:48 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:51 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 6:53 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:00 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:01 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:01 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:02 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:05 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:05 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:18 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:23 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:24 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:24 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:27 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:28 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:29 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:34 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:36 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:39 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:40 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:41 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:42 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:43 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:44 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:45 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:48 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:50 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:53 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:54 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:57 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 7:59 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 8:04 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 8:05 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 8:08 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 8:10 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 8:11 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 8:11 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 8:12 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 8:14 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 11, 2020 8:17 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:31 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 11:33 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:36 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:36 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:37 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:37 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:37 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:40 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:42 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:42 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:43 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:44 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:45 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:48 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:49 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:50 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:51 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:51 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:53 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:54 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:55 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:56 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:56 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 11:57 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 12:19 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 12:24 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 12:27 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 12:31 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 12:32 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 12:48 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 1:07 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /
+      params: {}
+March 14, 2020 1:46 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 1:47 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 1:55 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 1:57 PM
+      hostname: localhost
+      clientIP: ::ffff:127.0.0.1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 1:59 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 2:00 PM
+      hostname: localhost
+      clientIP: ::ffff:127.0.0.1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 2:01 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 2:02 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 2:02 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 2:29 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 2:30 PM
+      hostname: localhost
+      clientIP: ::ffff:127.0.0.1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 2:30 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 2:35 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 2:36 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 2:37 PM
+      hostname: localhost
+      clientIP: ::ffff:127.0.0.1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 2:37 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 3:09 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 3:10 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 3:26 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 3:27 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 3:36 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 3:36 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 3:40 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 3:42 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 3:47 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 3:48 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 3:49 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 4:02 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 4:58 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 5:05 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 5:06 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 5:08 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 5:10 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 5:13 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 5:13 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 5:18 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 5:23 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 5:26 PM
+      hostname: localhost
+      clientIP: ::ffff:127.0.0.1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 5:27 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 5:48 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 5:48 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 5:48 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 5:48 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 5:54 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 6:03 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 6:03 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 6:03 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 6:07 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 6:09 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 6:10 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 6:16 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 6:16 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 6:18 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 6:18 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 6:18 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 6:23 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 6:23 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 6:23 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 6:24 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 14, 2020 6:24 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 6:26 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 6:27 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 14, 2020 6:28 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 8:58 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 9:54 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 10:23 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 10:24 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 10:24 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 10:25 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 10:28 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 10:28 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 10:29 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 10:29 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 10:29 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 10:30 AM
+      hostname: localhost
+      clientIP: ::ffff:127.0.0.1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 10:33 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 10:37 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 10:38 AM
+      hostname: localhost
+      clientIP: ::ffff:127.0.0.1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 10:38 AM
+      hostname: localhost
+      clientIP: ::ffff:127.0.0.1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 10:39 AM
+      hostname: localhost
+      clientIP: ::ffff:127.0.0.1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 11:02 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 11:08 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:08 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 11:12 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:13 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:13 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:14 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:14 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:14 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:14 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:14 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:14 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:15 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 11:42 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:42 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:42 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:42 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:43 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:43 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:43 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:43 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:43 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:43 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:43 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:43 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:44 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:44 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 11:45 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 11:53 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 15, 2020 7:14 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 7:14 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 7:14 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 7:14 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 15, 2020 7:15 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 16, 2020 5:45 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 16, 2020 5:47 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 16, 2020 8:46 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 16, 2020 8:48 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 16, 2020 8:48 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 17, 2020 12:43 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 17, 2020 1:49 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 1:55 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 2:09 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 2:10 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 2:14 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 2:15 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 2:33 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 2:33 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 2:57 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 2:59 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 2:59 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 3:10 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 3:10 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 3:14 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 3:14 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 3:16 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 3:17 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 3:18 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 3:42 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 3:58 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:14 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:18 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:22 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:24 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:25 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:26 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:28 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 17, 2020 4:28 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:34 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:36 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:37 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:46 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:49 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 17, 2020 4:49 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:53 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:53 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 17, 2020 4:54 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 17, 2020 4:55 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 4:55 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 17, 2020 5:03 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 5:10 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 17, 2020 5:10 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 17, 2020 5:10 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 17, 2020 5:18 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 17, 2020 5:20 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 18, 2020 4:25 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 18, 2020 4:27 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 18, 2020 4:28 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 18, 2020 4:28 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 18, 2020 5:43 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 18, 2020 5:53 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 18, 2020 5:56 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 18, 2020 7:52 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:00 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:01 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:01 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:02 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:05 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:07 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:08 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:08 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:10 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:12 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:16 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:18 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:20 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:22 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:22 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:23 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:24 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:24 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:26 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:26 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:28 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:32 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:34 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:35 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:40 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:41 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:42 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:42 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:42 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:43 PM
+      hostname: localhost
+      clientIP: ::ffff:127.0.0.1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:43 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:46 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 18, 2020 8:47 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 20, 2020 2:57 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 3:12 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 3:13 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 3:15 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 3:16 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 3:17 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 3:17 PM
+      hostname: localhost
+      clientIP: ::ffff:127.0.0.1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 3:19 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 3:20 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 3:20 PM
+      hostname: localhost
+      clientIP: ::ffff:127.0.0.1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 3:20 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 3:20 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 3:23 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 20, 2020 3:24 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 20, 2020 3:24 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 20, 2020 3:25 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 3:40 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 20, 2020 3:42 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 20, 2020 3:43 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 20, 2020 3:44 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 20, 2020 6:12 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 20, 2020 6:13 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 20, 2020 6:13 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 6:13 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 6:15 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 6:16 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 20, 2020 6:18 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 21, 2020 11:39 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 21, 2020 11:41 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 21, 2020 11:45 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 21, 2020 11:46 AM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 21, 2020 12:09 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 21, 2020 12:09 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 21, 2020 12:16 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 21, 2020 12:26 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 21, 2020 12:28 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 21, 2020 12:34 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /create
+      params: {}
+March 21, 2020 12:35 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 21, 2020 12:38 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 21, 2020 12:39 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 21, 2020 12:41 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 21, 2020 12:41 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: POST
+      URL: /auth
+      params: {}
+March 21, 2020 12:42 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 21, 2020 12:42 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /rooms
+      params: {}
+March 21, 2020 12:42 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 21, 2020 12:43 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 21, 2020 12:48 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}
+March 21, 2020 4:44 PM
+      hostname: localhost
+      clientIP: ::1
+      protocol: http
+      method: GET
+      URL: /services
+      params: {}

@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import '../../style/variables.scss';
 
   nav {
     background: $navBackgroundColor;
@@ -30,6 +30,8 @@
 
   .menu li.button {
     transition: background-color .4s ease-in-out;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .menu li.button:hover {
@@ -54,7 +56,8 @@
   }
 
   .item.button {
-    order: 2;
+    order: 3;
+    border-top: 1px $menuLineColor solid;
   }
 
   .item {
@@ -75,18 +78,12 @@
     }
 
     .toggle {
-      flex: 1;
-      text-align: right;
+      order: 1;
+      margin-right: 5px;
     }
 
     .item.button {
-      width: auto;
-      order: 1;
-      display: block;
-    }
-
-    .menu .button.secondary {
-      border: 0;
+      order: 3;
     }
   }
 
@@ -95,6 +92,7 @@
     .item {
       display: block;
       width: auto;
+      order: 1;
     }
 
     .toggle {
@@ -105,20 +103,14 @@
       order: 0;
     }
 
-    .item {
-      order: 1;
-    }
-
     .button {
       order: 2;
-    }
-
-    .menu li.button:not(.secondary)  {
-      border-left: 1px $menuLineColor solid;
-    }
-
-    .menu .button.secondary {
       border: 0;
+    }
+
+    .menu li.button {
+      border-left: 1px $menuLineColor solid;
+      border-top: none;
     }
 
     .menu li {

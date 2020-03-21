@@ -1,0 +1,30 @@
+@import '../../../style/general.scss';
+
+$quatationSize: 18px;
+
+.homeIntro {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.homeContainer {
+  width: 100vw;
+  height: calc(100vh - 52px);
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.quotation {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: $quoteColor;
+  font-size: $quatationSize;
+  font-style: italic;
+  margin-top: 40px;
+}

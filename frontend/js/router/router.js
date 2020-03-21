@@ -1,5 +1,5 @@
 import { routes } from './routes';
-import { badPath } from "../views";
+import { badPath } from "../components/badPath";
 import { nav } from '../navigation/nav';
 
 export class Router

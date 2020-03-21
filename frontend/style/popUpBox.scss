@@ -1,0 +1,65 @@
+$popUpBackgroundColor: rgba(0, 0, 0, 0.527);
+$popUpTextColor: rgba(255, 255, 255, 0.589);
+$crossColor: rgba(255, 255, 255, 0.589);
+$crossHoverColor: rgba(255, 255, 255, 0.989);
+
+.popUpBox {
+    position: fixed;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -15%);
+    background-color: $popUpBackgroundColor;
+    color: $popUpTextColor;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 23px;
+    border-radius: 5px;
+  }
+  
+  .cross {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 7px;
+    color: $crossColor;
+    cursor: pointer;
+  }
+  
+  .cross:hover {
+    color: $crossHoverColor;
+  }
+
+  .yesNoContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .yesNoButton {
+    width: 40%;
+    font-size: 16px;
+    margin-top: 10px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.37);
+    transition: background-color .2s ease-in-out;
+  }
+
+  .yesNoButton:hover {
+    background-color: rgba(0, 0, 0, 0.459);
+  }
+  
+  .yesNoButton:focus {
+    outline: none;
+  }

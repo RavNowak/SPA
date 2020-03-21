@@ -1,11 +1,11 @@
-import '../../style/hotel.scss';
-import { Offers } from '../common/Offers';
-import { roomService } from '../services/roomService';
+import './hotel.scss';
+import { Offers } from '../../common/Offers';
+import { roomService } from '../../services/roomService';
+import { InfoBox } from '../../common/PopUpBox';
 
 let offers = new Offers;
 
-const createQuantityBox = (title) =>
-{
+const createQuantityBox = (title) => {
   const html = `
     <div class="quantityBox">
       <span class="settingTitle">${title}</span>
@@ -16,8 +16,7 @@ const createQuantityBox = (title) =>
         </div>
     </div>`;
 
-  $('.quantityBox').ready(() =>
-  {
+  $('.quantityBox').ready(() => {
     const spinner = $('.quantityBox'),
       input = spinner.find('input[type="number"]'),
       btnUp = spinner.find('.quantity-button-plus'),
@@ -25,13 +24,11 @@ const createQuantityBox = (title) =>
       min = input.attr('min'),
       max = input.attr('max');
 
-    btnUp.click(() =>
-    {
+    btnUp.click(() => {
       const oldValue = parseFloat(input.val());
       let newValue = oldValue;
 
-      if (oldValue < max)
-      {
+      if (oldValue < max) {
         newValue = oldValue + 1;
       }
 
@@ -41,13 +38,11 @@ const createQuantityBox = (title) =>
       drawMatchedOffer(0);
     });
 
-    btnDown.click(() =>
-    {
+    btnDown.click(() => {
       const oldValue = parseFloat(input.val());
       let newValue = oldValue;
 
-      if (oldValue > min)
-      {
+      if (oldValue > min) {
         newValue = oldValue - 1;
       }
 
@@ -61,8 +56,7 @@ const createQuantityBox = (title) =>
   return html;
 }
 
-const createCheckBoxSetting = (title) =>
-{
+const createCheckBoxSetting = (title) => {
   const html = `
     <div class="checkBoxSetting" id="checkBoxSetting${title}">
       <span class="settingTitle" id="${title}Title">${title}</span>
@@ -72,19 +66,16 @@ const createCheckBoxSetting = (title) =>
       </div>
     </div>`;
 
-  $(document).on('click', `#checkBoxSetting${title}`, () =>
-  {
+  $(document).on('click', `#checkBoxSetting${title}`, () => {
     const checkBoxState = $(`#${title}`).prop("checked");
 
     $(`#${title}`).prop("checked", !checkBoxState);
 
-    if ($(`#${title}`).is(':checked'))
-    {
+    if ($(`#${title}`).is(':checked')) {
       $(`#${title}Title`).css({ 'color': 'white' });
       $(`#checkBoxSetting${title}`).css({ 'background-color': 'rgba(30, 137, 199, 0.212)' });
     }
-    else
-    {
+    else {
       $(`#${title}Title`).css({ 'color': 'rgba(255, 255, 255, 0.589)' },
         { 'transition': 'color .10s ease-in-out' });
       $(`#checkBoxSetting${title}`).css({ 'background-color': '' });
@@ -96,43 +87,35 @@ const createCheckBoxSetting = (title) =>
   return html;
 }
 
-const createSliderBox = (title, minPrice, maxPrice, init) =>
-{
+const createSliderBox = (title, minPrice, maxPrice, init) => {
   const html = `
     <span class="settingTitle" id="sliderValue" style="margin-bottom:5px">${title}${init}$</span>
     <div class="sliderContainer">
       <input type="range" min="${minPrice}" max="${maxPrice}" value="${init}" class="slider" id="priceSlider">
     </div>`
 
-  $(document).on('input', '#priceSlider', () =>
-  {
+  $(document).on('input', '#priceSlider', () => {
     $('#sliderValue').html(title + $('#priceSlider').val() + '$');
   });
 
-  $(document).on('mouseenter ', '#priceSlider', () =>
-  {
+  $(document).on('mouseenter ', '#priceSlider', () => {
     $('#sliderValue').css({ 'color': 'white' });
   });
 
-  $(document).on('mouseleave ', '#priceSlider', () =>
-  {
+  $(document).on('mouseleave ', '#priceSlider', () => {
     $('#sliderValue').css({ 'color': '' });
   });
 
-  $(document).on('mouseup', '#priceSlider', () =>
-  {
+  $(document).on('mouseup', '#priceSlider', () => {
     drawMatchedOffer(0);
   });
 
   return html;
 }
 
-const displaySingleMessageInfo = (info) =>
-{
-  $('.roomsOffers').ready(() =>
-  {
-    if ($('.roomsOffers').find('.offerItem').text() === info)
-    {
+const displaySingleMessageInfo = (info) => {
+  $('.roomsOffers').ready(() => {
+    if ($('.roomsOffers').find('.offerItem').text() === info) {
       return;
     }
 
@@ -147,31 +130,30 @@ const displaySingleMessageInfo = (info) =>
   });
 }
 
-const createDateBox = (text) =>
-{
+const createDateBox = (text) => {
   const html = `
   <i class="far fa-calendar-plus calendarIcon"></i>
-  <label class="dateInput"></label>
-  `;
+  <label class="dateInput"></label>`;
 
-  $('#dateInput').ready(() =>
-  {
+  $('#dateInput').ready(() => {
     $('.dateInput').text(text);
     $('.calendarIcon').daterangepicker({
       "autoApply": true,
-    }, (start, end, label) =>
-    {
+    }, (start, end, label) => {
       $('.dateInput').text(start.format('DD.MM.YYYY') + " - " + end.format('DD.MM.YYYY'));
 
       if (!(start.isAfter(moment()) || start.isSame(moment(), "day")) ||
-        !end.isAfter(moment()) || !end.isAfter(start))
-      {
-        displaySingleMessageInfo('Please set proper date');
+        !end.isAfter(moment()) || !end.isAfter(start)) {
+        displaySingleMessageInfo('Selected date from the past<br><br>Please set proper date');
 
         $('.dateInput').text(text);
       }
-      else
-      {
+      else if (moment.duration(end.diff(start)).asYears() > 1) {
+        displaySingleMessageInfo(`Duration of your visit can't be longer than one year<br><br>Please set proper date`);
+
+        $('.dateInput').text(text);
+      }
+      else {
         drawMatchedOffer(0);
       }
     });
@@ -180,18 +162,15 @@ const createDateBox = (text) =>
   return html;
 }
 
-const drawTickOrCross = (status) =>
-{
-  if (status)
-  {
+const drawTickOrCross = (status) => {
+  if (status) {
     return `<i class="fas fa-check"></i>`;
   }
 
   return `<i class="fas fa-times"></i>`;
 }
 
-const isDateSet = () =>
-{
+const isDateSet = () => {
   return $('.dateInput').text().includes('-');
 }
 
@@ -223,6 +202,18 @@ const createAdditionalOffersInfo = (which, matchedOffers) => {
 const createOfferButton = () => {
   const html = `<button type="button" class="offerButton">Want it !</button>`;
 
+  $('.offerButton').ready(() => {
+    $('.offerButton').click(() => {
+      if (!Cookies.get('hotel')) {
+        Cookies.set('hotel', JSON.stringify(offers.getMatched()[offers.current()]));
+        InfoBox.create('Choosen hotel room has been successfully added to your basket');
+      }
+      else {
+        InfoBox.create('Your basket already contains hotel room');
+      }
+    });
+  });
+
   return html;
 }
 
@@ -232,10 +223,8 @@ const createOfferCounter = (which, matchedOffers) => {
   return html;
 }
 
-const drawMatchedOffer = (which) =>
-{
-  if (!isDateSet())
-  {
+const drawMatchedOffer = (which) => {
+  if (!isDateSet()) {
     displaySingleMessageInfo('Specify duration of your stay at our hotel');
 
     return;
@@ -243,18 +232,15 @@ const drawMatchedOffer = (which) =>
 
   offers.setLocal();
 
-  roomService.getRooms().then(data =>
-  {
+  roomService.getRooms().then(data => {
     offers.setRemote(data);
 
     let matchedOffers = offers.compareSettings();
 
     $('.roomsOffers').empty();
 
-    if (matchedOffers.length > 0)
-    {
-      $('.roomsOffers').ready(() =>
-      {
+    if (matchedOffers.length > 0) {
+      $('.roomsOffers').ready(() => {
         $('#rightRoomArrow').show();
         $('#leftRoomArrow').show();
 
@@ -265,15 +251,13 @@ const drawMatchedOffer = (which) =>
           .slideDown('800');
       });
     }
-    else
-    {
+    else {
       displaySingleMessageInfo('No offers found');
     }
   });
 }
 
-const createRoomOffer = () =>
-{
+const createRoomOffer = () => {
   const html = `
   <div class="leftArrow roomArrow" id="leftRoomArrow"></div>
   <div class="roomsOffers"></div>
@@ -281,18 +265,14 @@ const createRoomOffer = () =>
 
   drawMatchedOffer(0);
 
-  $(document).on('click', '#leftRoomArrow', () =>
-  {
-    if (offers.getMatched().length > 1)
-    {
+  $(document).on('click', '#leftRoomArrow', () => {
+    if (offers.getMatched().length > 1) {
       drawMatchedOffer(offers.back());
     }
   });
 
-  $(document).on('click', '#rightRoomArrow', () =>
-  {
-    if (offers.getMatched().length > 1)
-    {
+  $(document).on('click', '#rightRoomArrow', () => {
+    if (offers.getMatched().length > 1) {
       drawMatchedOffer(offers.next());
     }
   });
@@ -300,13 +280,12 @@ const createRoomOffer = () =>
   return html;
 }
 
-export const hotel = () =>
-{
+export const hotel = () => {
   const fragment = $(new DocumentFragment());
 
   fragment.append(`
       <div class="backgroundRooms"></div>
-      <div class="homeContainer">
+      <div class="hotelContainer">
         <div class="mainPanel">
           <div class="settingsPanel">
             <div class="guestsBox">
@@ -332,7 +311,7 @@ export const hotel = () =>
           </div>
         </div>
       </div>`
-      );
+  );
 
   return fragment;
 };

@@ -1,8 +1,8 @@
-@import '../style/sphere.scss';
-@import './variables.scss';
+@import '../../../style/sphere.scss';
+@import '../../../style/variables.scss';
 
 .backgroundServices {
-    background-image: url('../assets/img/services.jpg');
+    background-image: url('../../../assets/img/services.jpg');
     height: 100vh;
     width: 100%;
     min-height: 100%;
@@ -16,62 +16,47 @@
     z-index: -1;
   }
 
-  .servicesShadow {
-    // background-color: rgba(0, 0, 0, 0.311);
-    // height: 100vh;
-    // min-height: 100%;
-    // min-width: 100%;
-    // position: fixed;
-    // right: 0;
-    // bottom: 0;
-    // z-index: -1;
-  }
-
+  /* Mobile and Tablet*/
   .servicesContainer {
     width: 100vw;
-    height: calc(100vh - 52px);
-    // background-color: rgba(255, 0, 0, 0.37);
-
-    align-items: center;
-
-    display: flex;
   }
 
   .mainPanel {
     width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 20px 0;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 90%;
     // background-color: rgba(255, 0, 0, 0.37);
   }
 
   .sphere {
+    width: 80%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 30%;
-    height: 100%;
-    margin-left: 20px;
+    align-items: center;
+    flex-wrap: wrap;
     // background-color: rgba(255, 0, 0, 0.37);
   }
 
   .singleService {
+    width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
-    width: 26%;
-    height: 100%;
-    margin-right: 20px;
+    align-items: center;
     background-color: $singleServiceBackgroundColor;
+    margin-top: 20px;
     font-size: 18px;
     color: $singleServiceTextColor;
     border-radius: 10px;
     // background-color: rgba(255, 0, 0, 0.37);
   }
+
+  .singleService > * {
+    margin: 20px 0;
+}
 
   .serviceInfo {
     display: flex;
@@ -97,6 +82,39 @@
   .serviceButton:hover {
     background-color: rgba(0, 0, 0, 0.459);
   }
+
+  .serviceButton:focus {
+    outline: none;
+  }
+
+  /* Desktop */
+@media screen and (min-width: 900px) {
+  .servicesContainer {
+    height: calc(100vh - 52px);
+    align-items: center;
+    display: flex;
+  }
+
+  .mainPanel {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90%;
+    margin: 0;
+  }
+
+  .sphere {
+    width: 40%;
+    height: 100%;
+    margin-left: 20px;
+  }
+
+  .singleService {
+    width: 26%;
+    height: 100%;
+    margin-right: 20px;
+    margin-top: 0;
+  }
+}
 
   
 

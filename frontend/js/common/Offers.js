@@ -3,7 +3,7 @@ export class Offers {
         this.local = {};
         this.remote = [];
         this.matched = [];
-        this.current = 0;
+        this.which = 0;
     }
 
     setLocal() {
@@ -66,24 +66,28 @@ export class Offers {
     }
 
     next() {
-      this.current++;
+      this.which++;
 
-      if (this.current == this.matched.length)
+      if (this.which == this.matched.length)
       {
-        this.current = 0;
+        this.which = 0;
       }
 
-      return this.current;
+      return this.which;
     }
 
     back() {
-      this.current--;
+      this.which--;
 
-      if (this.current < 0)
+      if (this.which < 0)
       {
-        this.current = this.matched.length - 1;
+        this.which = this.matched.length - 1;
       }
 
-      return this.current;
+      return this.which;
+    }
+
+    current() {
+      return this.which;
     }
 }
