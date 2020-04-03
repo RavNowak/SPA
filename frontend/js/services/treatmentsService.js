@@ -1,5 +1,5 @@
 export const treatmentService = {
     getServices: () => {
-      return fetch('http://localhost:8080/services').then(response => response.json());
+      return fetch('https://itspa.herokuapp.com/services').then(response => response.json());
     }
 }

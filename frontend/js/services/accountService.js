@@ -12,7 +12,7 @@ export const accountService = {
           password: pass,
       }
   
-      return fetch('http://localhost:8080/create',{ method:'POST', headers: headers, body: JSON.stringify({user: user}) }).then(response => response.json());
+      return fetch('https://itspa.herokuapp.com/create',{ method:'POST', headers: headers, body: JSON.stringify({user: user}) }).then(response => response.json());
     }
 }
     

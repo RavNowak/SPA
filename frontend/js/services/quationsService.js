@@ -1,5 +1,5 @@
 export const quationsService = {
   getQuations: () => {
-    return fetch('http://localhost:8080/quations').then(response => response.json());
+    return fetch('https://itspa.herokuapp.com/quations').then(response => response.json());
   }
 }

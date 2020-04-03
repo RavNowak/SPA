@@ -5,6 +5,6 @@ export const authService = {
     headers.append('Content-Type', 'application/json');
     headers.append('Authorization', 'Basic ' + btoa(email + ":" + password));
 
-    return fetch('http://localhost:8080/auth',{ method:'POST', headers: headers }).then(response => response.json());
+    return fetch('https://itspa.herokuapp.com/auth',{ method:'POST', headers: headers }).then(response => response.json());
   }
 }
