@@ -1,6 +1,6 @@
 node_modules/
 dist/
 .cache/
-logs/logs.txt
+backend/logs/logs.txt
 
 
