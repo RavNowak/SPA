@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:rest": "nodemon ./backend/server.js",
-    "start:app": "parcel -p 3000 ./frontend/htdocs/index.html --open"
+    "start:app": "parcel -p 3000 ./frontend/htdocs/index.html --open --out-dir docs"
   },
   "repository": {
     "type": "git",
