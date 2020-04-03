@@ -5,8 +5,6 @@
     background-image: url('../../../assets/img/services.jpg');
     height: 100vh;
     width: 100%;
-    min-height: 100%;
-    min-width: 100%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -16,81 +14,74 @@
     z-index: -1;
   }
 
-  /* Mobile and Tablet*/
-  .servicesContainer {
-    width: 100vw;
-  }
-
-  .mainPanel {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    // background-color: rgba(255, 0, 0, 0.37);
-  }
-
-  .sphere {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    // background-color: rgba(255, 0, 0, 0.37);
-  }
-
-  .singleService {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: $singleServiceBackgroundColor;
-    margin-top: 20px;
-    font-size: 18px;
-    color: $singleServiceTextColor;
-    border-radius: 10px;
-    // background-color: rgba(255, 0, 0, 0.37);
-  }
-
-  .singleService > * {
-    margin: 20px 0;
+/* Mobile and Tablet*/
+.servicesContainer {
+  width: 100vw;
 }
 
-  .serviceInfo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-  }
+.mainPanel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
 
-  .serviceButton {
-    width: 50%;
-    height: 40px;
-    border-radius: 8px;
-    cursor: pointer;
-    color: $singleServiceTextColor;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.37);
-    transition: background-color .2s ease-in-out;
-    font-weight: 600;
-    font-size: 15px;
-  }
+.sphere {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-  .serviceButton:hover {
-    background-color: rgba(0, 0, 0, 0.459);
-  }
+.singleService {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $singleServiceBackgroundColor;
+  margin-top: 20px;
+  font-size: 16px;
+  color: $singleServiceTextColor;
+  border-radius: 10px;
+}
 
-  .serviceButton:focus {
-    outline: none;
-  }
+.serviceInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
 
-  /* Desktop */
+.serviceButton {
+  width: 50%;
+  height: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: $singleServiceTextColor;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.37);
+  transition: background-color .2s ease-in-out;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.serviceButton:hover {
+  background-color: rgba(0, 0, 0, 0.459);
+}
+
+.serviceButton:focus {
+  outline: none;
+}
+
+/* Desktop */
 @media screen and (min-width: 900px) {
   .servicesContainer {
-    height: calc(100vh - 52px);
+    height: calc(100vh - 46px);
     align-items: center;
     display: flex;
   }

@@ -2,14 +2,18 @@
 
 $crossColor: rgba(255, 255, 255, 0.589);
 $crossHoverColor: rgba(255, 255, 255, 0.989);
+$basketBackgroundColor: rgba(0, 0, 0, 0.342);
+$emptyBasketFontColor: rgba(255, 255, 255, 0.767);
+$basketDataInfo: rgba(0, 0, 0, 0.374);
+$basketDataInfoHover: rgba(0, 0, 0, 0.467);
+$basketButtonBackgroundColor: rgba(107, 213, 209, 0.551);
+$basketButtonBackgroundColorHover: rgba(107, 213, 209, 0.349);
 
 .backgroundBasket {
     background-image: url('../../../assets/img/basket.jpg');
     background-color: rgba(0, 0, 0, 0.356);
     height: 100vh;
     width: 100%;
-    min-height: 100%;
-    min-width: 100%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -19,150 +23,149 @@ $crossHoverColor: rgba(255, 255, 255, 0.989);
     z-index: -1;
   }
 
-  /* Mobile and Tablet*/
-  .basketContainer {
-    width: 100vw;
-  }
+/* Mobile and Tablet*/
+.basketContainer {
+  width: 100vw;
+}
 
-  .mainPanel {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    // background-color: rgba(255, 0, 0, 0.37);
-  }
+.mainPanel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
 
-  .basket {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.342);
-    overflow-y: auto;
-    border-radius: 5px;
-    padding: 10px;
-  }
+.basket {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $basketBackgroundColor;
+  overflow-y: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
 
-  .emptyBasket {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.342);
-    overflow-y: auto;
-    color: rgba(255, 255, 255, 0.767);
-    font-size: 22px;
-    font-weight: 500;
-    border-radius: 5px;
-  }
+.emptyBasket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $basketBackgroundColor;
+  overflow-y: auto;
+  color: $emptyBasketFontColor;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 5px;
+}
 
-  .singleInfo {
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.374);
-    margin: 10px;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 95%;
-    cursor: pointer;
-  }
+.singleInfo {
+  position: relative;
+  background-color: $basketDataInfo;
+  margin: 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  cursor: pointer;
+}
 
-  .endSection {
-    position: relative;
-    margin: 10px;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 95%;
-  }
+.singleInfo:hover {
+  background-color: $basketDataInfoHover;
+}
 
-  .singleInfo:hover {
-    background-color: rgba(0, 0, 0, 0.467);
-  }
+.endSection {
+  position: relative;
+  margin: 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
 
-  .hotelAdditionalInfo {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
+.hotelAdditionalInfo {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-  .singleItem {
-    color: rgba(255, 255, 255, 0.589);
-    font-size: 17px;
-    display: block;
-    padding: 7px;
-    text-align: center;
-  }
+.singleItem {
+  color: rgba(255, 255, 255, 0.589);
+  font-size: 17px;
+  display: block;
+  padding: 7px;
+  text-align: center;
+}
 
-  .priceItem {
-    width: 100%;
-    border-top: 1px solid white;
-  }
+.priceItem {
+  width: 100%;
+  border-top: 1px solid white;
+}
 
-  .titleItem {
-    font-size: 18px;
-    color: white;
-  }
+.titleItem {
+  font-size: 18px;
+  color: white;
+}
 
-  .basketButton {
-    font-size: 16px;
-    margin: 10px;
-    color: white;
-    background-color: transparent;
-    border: none;
-    border-radius: 6px;
-    padding: 5px;
-    cursor: pointer;
-    background-color: rgba(107, 213, 209, 0.551);
-    transition: background-color .2s ease-in-out;
-  }
+.basketButton {
+  font-size: 16px;
+  margin: 10px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: $basketButtonBackgroundColor;
+  transition: background-color .2s ease-in-out;
+}
 
-  .basketButton:hover {
-    background-color: rgba(107, 213, 209, 0.349);
-  }
+.basketButton:hover {
+  background-color: $basketButtonBackgroundColorHover;
+}
   
-  .basketButton:focus {
-    outline: none;
-  }
+.basketButton:focus {
+  outline: none;
+}
 
-  .inputText {
-    background-color: transparent;
-    width: 70%;
-    font-size: 16px;
-    margin: 10px;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    border: none;
-    border-bottom: 1px solid white;
-  }
+.inputText {
+  background-color: transparent;
+  width: 70%;
+  font-size: 16px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid white;
+}
 
-  .inputText:focus {
-    outline: none;
-  }
+.inputText:focus {
+  outline: none;
+}
 
-  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: white;
-    opacity: 1; /* Firefox */
-  }
+::placeholder {
+  color: white;
+  opacity: 1;
+}
   
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: white;
-  }
+:-ms-input-placeholder {
+  color: white;
+}
   
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    color: white;
-  }
+::-ms-input-placeholder {
+  color: white;
+}
 
 .formError {
-    font-size: 12px;
-    font-weight: 600;
-    color: red;
+  font-size: 12px;
+  font-weight: 600;
+  color: red;
 }
 
 .signUpButtons {
@@ -206,29 +209,29 @@ meter[value="2"]::-moz-meter-bar { background: rgba(255, 255, 0, 0.413); }
 meter[value="3"]::-moz-meter-bar { background: rgba(255, 166, 0, 0.413); }
 meter[value="4"]::-moz-meter-bar { background: rgba(0, 128, 0, 0.413); }
 
-  @media screen and (min-width: 900px) {
-    .basketContainer {
-      height: calc(100vh - 52px);
-      align-items: center;
-      display: flex;
-    }
+@media screen and (min-width: 900px) {
+  .basketContainer {
+    height: calc(100vh - 46px);
+    align-items: center;
+    display: flex;
+  }
   
-    .mainPanel {
-      flex-direction: row;
-      justify-content: space-between;
-      height: 90%;
-      margin: 0;
-    }
+  .mainPanel {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90%;
+    margin: 0;
+  }
   
-    .basket {
-      width: 40%;
-      height: 100%;
-      margin-left: 20px;
-    }
+  .basket {
+    width: 40%;
+    height: 100%;
+    margin-left: 20px;
+  }
 
-    .emptyBasket {
-      width: 40%;
-      height: 100%;
-      margin-left: 20px;
-    }
+  .emptyBasket {
+    width: 40%;
+    height: 100%;
+    margin-left: 20px;
+  }
 }

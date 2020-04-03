@@ -2,8 +2,8 @@ const { getAllUsers } = require('../models/model');
 
 module.exports = {
   authController: async (req, res) => {
-    let users = await getAllUsers();
-    header = req.headers.authorization || '',
+    let users = await getAllUsers(),
+      header = req.headers.authorization || '',
       token = header.split(/\s+/).pop() || '',
       auth = new Buffer.from(token, 'base64').toString(),
       parts = auth.split(/:/),
@@ -20,6 +20,8 @@ module.exports = {
           email: user.email,
           tel: user.tel
         });
+
+        return;
     }
 
     res.send({ OK: false });

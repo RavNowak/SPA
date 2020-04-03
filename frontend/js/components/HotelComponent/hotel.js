@@ -1,7 +1,7 @@
-import './hotel.scss';
 import { Offers } from '../../common/Offers';
-import { roomService } from '../../services/roomService';
 import { InfoBox } from '../../common/PopUpBox';
+import { roomService } from '../../services/roomService';
+import './hotel.scss';
 
 let offers = new Offers;
 
@@ -9,7 +9,7 @@ const createQuantityBox = (title) => {
   const html = `
     <div class="quantityBox">
       <span class="settingTitle">${title}</span>
-      <input type="number" min="1" max="6" step="1" value="1" style="font-size:18px;">
+      <input type="number" min="1" max="6" step="1" value="1" style="font-size:16px;">
         <div class="quantity-nav">
           <div class="quantity-button-plus"><i class="fas fa-plus-square fa-lg"></i></div>
           <div class="quantity-button-minus"><i class="fas fa-minus-square fa-lg"></i></div>
@@ -36,7 +36,7 @@ const createQuantityBox = (title) => {
       spinner.find("input").trigger("change");
 
       drawMatchedOffer(0);
-    });
+    })
 
     btnDown.click(() => {
       const oldValue = parseFloat(input.val());
@@ -50,8 +50,8 @@ const createQuantityBox = (title) => {
       spinner.find("input").trigger("change");
 
       drawMatchedOffer(0);
-    });
-  });
+    })
+  })
 
   return html;
 }
@@ -59,7 +59,7 @@ const createQuantityBox = (title) => {
 const createCheckBoxSetting = (title) => {
   const html = `
     <div class="checkBoxSetting" id="checkBoxSetting${title}">
-      <span class="settingTitle" id="${title}Title">${title}</span>
+      <span class="checkBoxTittle" id="${title}Title">${title}</span>
       <div class="coolCheckBox">  
         <input type="checkbox" value="None" id="${title}" name="${title}" unchecked>
         <label for="${title}"></label>
@@ -82,7 +82,7 @@ const createCheckBoxSetting = (title) => {
     }
 
     drawMatchedOffer(0);
-  });
+  })
 
   return html;
 }
@@ -96,19 +96,19 @@ const createSliderBox = (title, minPrice, maxPrice, init) => {
 
   $(document).on('input', '#priceSlider', () => {
     $('#sliderValue').html(title + $('#priceSlider').val() + '$');
-  });
+  })
 
   $(document).on('mouseenter ', '#priceSlider', () => {
     $('#sliderValue').css({ 'color': 'white' });
-  });
+  })
 
   $(document).on('mouseleave ', '#priceSlider', () => {
     $('#sliderValue').css({ 'color': '' });
-  });
+  })
 
   $(document).on('mouseup', '#priceSlider', () => {
     drawMatchedOffer(0);
-  });
+  })
 
   return html;
 }
@@ -119,7 +119,7 @@ const displaySingleMessageInfo = (info) => {
       return;
     }
 
-    const html = `<div class="offerItem">${info}<div>`;
+    const html = `<div class="offerItem" style="font-size:16px">${info}<div>`;
 
     $('.roomsOffers').empty();
     $('#rightRoomArrow').hide();
@@ -127,7 +127,7 @@ const displaySingleMessageInfo = (info) => {
 
     $('.roomsOffers').append(html)
       .hide().show('slow');
-  });
+  })
 }
 
 const createDateBox = (text) => {
@@ -137,6 +137,7 @@ const createDateBox = (text) => {
 
   $('#dateInput').ready(() => {
     $('.dateInput').text(text);
+
     $('.calendarIcon').daterangepicker({
       "autoApply": true,
     }, (start, end, label) => {
@@ -156,8 +157,8 @@ const createDateBox = (text) => {
       else {
         drawMatchedOffer(0);
       }
-    });
-  });
+    })
+  })
 
   return html;
 }
@@ -211,8 +212,8 @@ const createOfferButton = () => {
       else {
         InfoBox.create('Your basket already contains hotel room');
       }
-    });
-  });
+    })
+  })
 
   return html;
 }
@@ -249,12 +250,12 @@ const drawMatchedOffer = (which) => {
           .append(createOfferButton())
           .append(createOfferCounter(which, matchedOffers))
           .slideDown('800');
-      });
+      })
     }
     else {
       displaySingleMessageInfo('No offers found');
     }
-  });
+  })
 }
 
 const createRoomOffer = () => {
@@ -269,13 +270,13 @@ const createRoomOffer = () => {
     if (offers.getMatched().length > 1) {
       drawMatchedOffer(offers.back());
     }
-  });
+  })
 
   $(document).on('click', '#rightRoomArrow', () => {
     if (offers.getMatched().length > 1) {
       drawMatchedOffer(offers.next());
     }
-  });
+  })
 
   return html;
 }
@@ -283,8 +284,8 @@ const createRoomOffer = () => {
 export const hotel = () => {
   const fragment = $(new DocumentFragment());
 
-  fragment.append(`
-      <div class="backgroundRooms"></div>
+  const html = `
+  <div class="backgroundRooms"></div>
       <div class="hotelContainer">
         <div class="mainPanel">
           <div class="settingsPanel">
@@ -310,8 +311,9 @@ export const hotel = () => {
             ${createRoomOffer()}
           </div>
         </div>
-      </div>`
-  );
+      </div>`;
+
+  fragment.append(html);
 
   return fragment;
 };

@@ -1,20 +1,20 @@
 .tagcloud {
-    font-size: 16px;
-  }
+  font-size: 16px;
+}
 
 .tagcloud--item {
-    padding: 2px 4px;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 17px;
+  padding: 2px 4px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 17px;
 }
 
 .tagcloud--item:hover {
-    background-color: rgba(0,0,0,.1);
-    border: 1px solid #333;
-    opacity: 1 !important;
-    z-index: 100 !important;
+  background-color: rgba(0,0,0,.1);
+  border: 1px solid #333;
+  opacity: 1 !important;
+  z-index: 100 !important;
 }

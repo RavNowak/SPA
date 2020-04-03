@@ -1,0 +1,86 @@
+.backgroundContact {
+  background-image: url('../../../assets/img/contact.jpg');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.contactContainer {
+  width: 100vw;
+}
+
+.contactPanel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 46px);
+  margin: 0;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.231);
+  padding-bottom: 20px;
+}
+
+.questionSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  height: 60px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.contactText {
+  color: white;
+  font-size: 20px;
+}
+
+.nameSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.telSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.emailSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.name {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+img {
+  border-radius: 50%;
+}

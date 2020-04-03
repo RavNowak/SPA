@@ -4,12 +4,15 @@
 @import '../../../style/datePicker.scss';
 @import '../../../style/popUpBox.scss';
 
+$checkBoxBackgroundColor:rgba(255, 51, 0, 0.253);
+$checkBoxBackgroundColorHover:rgba(255, 51, 0, 0.329);
+$arrowBackgroundColor: rgba(0, 0, 0, 0.100);
+$arrowBackgroundColorHover: rgba(0, 0, 0, 0.200);
+
 .backgroundRooms {
   background-image: url('../../../assets/img/hotel.jpg');
   height: 100vh;
   width: 100%;
-  min-height: 100%;
-  min-width: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -48,7 +51,7 @@
   width: 100%;
   margin-bottom: 10px;
   padding: 0px 20px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .optionsBox {
@@ -67,7 +70,7 @@
   justify-content: center;
   align-items: center;
   color: $settingsPanelTextColor;
-  background-color: rgba(255, 51, 0, 0.253);
+  background-color: $checkBoxBackgroundColor;
   transition: background-color .5s ease-in-out;
   width: 95px;
   height: 95px;
@@ -75,13 +78,20 @@
 }
 
 .checkBoxSetting:hover {
-  background-color: rgba(255, 51, 0, 0.329);
+  background-color: $checkBoxBackgroundColorHover;
   cursor: pointer;
 }
 
 .settingTitle {
   display: block;
   color: $settingsPanelTextColor;
+  font-size: 16px;
+}
+
+.checkBoxTittle {
+  display: block;
+  color: $settingsPanelTextColor;
+  font-size: 14px;
 }
 
 .priceBox {
@@ -111,7 +121,7 @@
 .dateInput {
   border: none;
   background-color: transparent;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .calendarIcon{
@@ -132,7 +142,7 @@
 }
 
 .roomArrow {
-  background-color: rgba(0, 0, 0, 0.100);
+  background-color: $arrowBackgroundColor;
   padding: 0 14px;
   background-repeat: no-repeat;
   background-position: center; 
@@ -140,7 +150,7 @@
 }
 
 .roomArrow:hover {
-  background-color: rgba(0, 0, 0, 0.200);
+  background-color: $arrowBackgroundColorHover;
 }
 
 .leftArrow {
@@ -157,29 +167,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  font-size: 14px;
 }
 
 .offerItem {
-  padding: 10px 0px;
+  padding: 6px 0px;
   width: 100%;
   text-align: center;
   color: $settingsPanelTextColor;
 }
 
-.hotelShadow {
-  background-color: rgba(0, 0, 0, 0.37);
-  height: 100vh;
-  min-height: 100%;
-  min-width: 100%;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
 .offerButton {
-  width: 50%;
-  height: 40px;
+  width: 45%;
+  height: 35px;
   border-radius: 8px;
   cursor: pointer;
   color: $singleServiceTextColor;
@@ -201,7 +201,7 @@
 /* Desktop */
 @media screen and (min-width: 900px) {
   .hotelContainer {
-    height: calc(100vh - 52px);
+    height: calc(100vh - 46px);
     align-items: center;
     display: flex;
   }
@@ -227,7 +227,7 @@
   }
 
   .checkBoxSetting {
-    width: 85px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
   }
 }

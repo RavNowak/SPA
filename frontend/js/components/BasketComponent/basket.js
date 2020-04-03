@@ -1,16 +1,9 @@
-import './basket.scss';
 import { InfoBox, YesNoBox } from '../../common/PopUpBox';
 import { FormValidator } from '../../common/FormValidator';
 import { authService } from '../../services/authService';
 import { accountService } from '../../services/accountService';
-
-const Error = {
-  name: `This field can't be empty and must contain only letters`,
-  surname: `This field can't be empty and must contain only letters`,
-  email: 'Invalid email format. Example: janK@domain.com',
-  tel: 'Invalid telefon format. Example: 123456789',
-  pass: 'Your password must have minimum 6 signs and at least one letter and one number'
-}
+import { Error } from '../../common/Errors';
+import './basket.scss';
 
 const createHotelItem = () => {
   let hotelObject = null;
@@ -114,11 +107,10 @@ const createLoginButton = () => {
         else {
           authService.auth($('#login').val(), $('#password').val()).then(response => {
             if (response.OK) {
-              $('.endSection').slideUp('slow', () => {
-                $('.endSection').remove();
-                $('.basket').append(createConfirmationButton());
-                Cookies.set('isloggedin', 'true');
-              });
+              $('.endSection').remove();
+              $('.basket').append(createConfirmationButton());
+              Cookies.set('isloggedin', 'true');
+              location.reload();
             }
             else {
               $('#loginError').text('Invalid login or password');
@@ -199,7 +191,7 @@ const createSignUpPasswordItem = (type, placeholder, id, config, error) => {
       } else {
         $('#password-strength-text').html(''); 
       }
-  });
+    })
   })
 
   return html;
@@ -246,6 +238,9 @@ const createSignUpButton = () => {
             InfoBox.create('User account created succesfully');
             clearForm();
           }
+          else {
+            $('#formError').html(response.message);
+          }
         })
       }
       else {
@@ -276,7 +271,7 @@ const createNewAccountButton = () => {
 
       const header = `
       <h1 style="color:white;padding:10px;">Sign Up</h1>
-      <p style="color:white;padding:10px;">Please fill in this form to create your free account.</p>`;
+      <p style="color:white;padding:10px;text-align:center">Please fill in this form to create your free account.</p>`;
 
       $('.basket').append(header)
         .append(createSignUpTextItem('text', 'Name', 'name', { regex: /^[A-Za-z]+$/ }, Error.name))
@@ -305,7 +300,9 @@ const createLoginSection = () => {
 }
 
 const removeBasketCookies = () => {
-  for (let i = 1; i < 8; i++) {
+  const numOfBasketCookies = 8;
+
+  for (let i = 1; i < numOfBasketCookies; i++) {
     Cookies.remove('service_' + i);
   }
 
@@ -334,7 +331,7 @@ const createConfirmationButton = () => {
 }
 
 const createBasketSummary = () => {
-  if (!Cookies.get('isloggedin')) {
+  if (Cookies.get('isloggedin') === 'false') {
     return createLoginSection();
   }
 

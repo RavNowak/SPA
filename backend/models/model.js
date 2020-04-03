@@ -20,6 +20,12 @@ module.exports = {
     return JSON.parse(data).users;
   },
 
+  getAllQuations: async () => {
+    const data = await fs.readFile(path.resolve(__dirname, './database.json'));
+
+    return JSON.parse(data).quations;
+  },
+
   setNewUser: async (user) => {
 
     const data = await fs.readFile(path.resolve(__dirname, './database.json'));

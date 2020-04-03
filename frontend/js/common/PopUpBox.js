@@ -14,8 +14,8 @@ class InfoBox {
       $('.cross').ready(() => {
         $('.cross').click(() => {
           $('.popUpBox').remove();
-        });
-      });
+        })
+      })
 
       $('.mainPanel').append(html);
 
@@ -25,8 +25,8 @@ class InfoBox {
           $('.popUpBox').css({ 'opacity': '1.0' })
         });
         $('.popUpBox').fadeTo(10000, 0.0, () => { $('.popUpBox').remove(); });
-      });
-    });
+      })
+    })
   }
 }
 
@@ -50,24 +50,24 @@ class YesNoBox {
       $('.cross').ready(() => {
         $('.cross').click(() => {
           $('.popUpBox').remove();
-        });
-      });
+        })
+      })
 
       $('#noButton').ready(() => {
         $('#noButton').click(() => {
           $('.popUpBox').remove();
-        });
-      });
+        })
+      })
 
       $('#yesButton').ready(() => {
         $('#yesButton').click(() => {
           yesCallback();
           $('.popUpBox').remove();
-        });
-      });
+        })
+      })
 
       $('.mainPanel').append(html);
-    });
+    })
   }
 }
 

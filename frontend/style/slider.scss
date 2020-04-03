@@ -11,27 +11,27 @@
 }
 
 .slider {
-    -webkit-appearance: none;
-    width: 100%;
-    height: 25px;
-    background: rgba(0, 0, 0, 0.151);
-    border: 1px solid rgba(0, 0, 0, 0.356);
-    border-radius: 3px;
-    margin: 15px 4px 6px 4px;
-    outline: none;
-  }
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: rgba(0, 0, 0, 0.151);
+  border: 1px solid rgba(0, 0, 0, 0.356);
+  border-radius: 3px;
+  margin: 15px 4px 6px 4px;
+  outline: none;
+}
   
-  .slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    @include sliderIcon;
-  }
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  @include sliderIcon;
+}
 
-  .slider::-moz-range-thumb {
-    @include sliderIcon;
-  }
+.slider::-moz-range-thumb {
+  @include sliderIcon;
+}
 
-  .sliderContainer {
-    width: 100%;
-    display: flex;
-    align-content: space-between;
-  }
+.sliderContainer {
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+}

@@ -1,53 +1,103 @@
 @import '../../style/variables.scss';
 
-  nav {
-    background: $navBackgroundColor;
-  }
+$navBackgroundColor: rgba(34, 34, 34, 0.425);
+$menuItemHoverColor: rgba(34, 34, 34, 0.637);
+$menuLineColor: rgba(255, 255, 255, 0.342);
+$navTextColor: rgba(255, 255, 255, 0.589);
+$navTextColorHover: white;
+$logOutButtonColor: rgba(255, 0, 0, 0.4);
 
-  ul {
-    list-style-type: none;
-  }
+nav {
+  background: $navBackgroundColor;
+}
 
-  a {
-    color: $navTextColor;
-    text-decoration: none;
-  }
+ul {
+  list-style-type: none;
+}
 
-  .menu li {
-    font-size: 18px;
-    padding: 15px 5px;
-    white-space: nowrap;
-    transition: background-color .4s ease-in-out;
-  }
+a {
+  color: $navTextColor;
+  text-decoration: none;
+}
 
-  .menu li:hover:not(.logo):not(.button):not(.toggle) {
-    background-color: $menuItemHoverColor;
-  }
+.menu li {
+  font-size: 17px;
+  padding: 15px 5px;
+  white-space: nowrap;
+  transition: background-color .4s ease-in-out;
+}
 
-  .menu li:hover:not(.logo) a {
-    color: $navTextColorHover;
-  }
+.menu li:hover:not(.logo):not(.button):not(.toggle):not(.power) {
+  background-color: $menuItemHoverColor;
+}
 
-  .menu li.button {
-    transition: background-color .4s ease-in-out;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+.menu li:hover:not(.logo) a {
+  color: $navTextColorHover;
+}
 
-  .menu li.button:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-  }
+.menu li.button {
+  transition: background-color .4s ease-in-out;
+  padding-left: 16px;
+  padding-right: 16px;
+}
 
-  .menu .button.secondary {
-    border-bottom: 1px $menuLineColor solid;
-  }
+.power {
+  cursor: pointer;
+}
 
-  /* Mobile menu */
-  .menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+.menu li.power {
+  transition: background-color .4s ease-in-out;
+}
+
+.menu li.button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu li.power:hover {
+  background-color: $logOutButtonColor;
+}
+
+.star {
+  color: $navTextColor
+}
+
+/* Mobile menu */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle {
+  order: 1;
+  margin-right: 5px;
+}
+
+.item.button {
+  order: 3;
+  border-top: 1px $menuLineColor solid;
+}
+
+.item.power {
+  order: 3;
+}
+
+.item {
+  width: 100%;
+  text-align: center;
+  order: 3;
+  display: none;
+}
+
+.item.active {
+  display: block;
+}
+
+/* Tablet menu */
+@media screen and (min-width: 600px) {
+  .logo {
+    flex: 1;
   }
 
   .toggle {
@@ -55,69 +105,46 @@
     margin-right: 5px;
   }
 
-  .item.button {
+  .item.button,
+  .item.power {
     order: 3;
-    border-top: 1px $menuLineColor solid;
+  }
+}
+
+/* Desktop menu */
+@media screen and (min-width: 900px) {
+  .item {
+    display: flex;
+    align-items: center;
+    width: auto;
+    order: 1;
   }
 
-  .item {
-    width: 100%;
-    text-align: center;
-    order: 3;
+  .toggle {
     display: none;
   }
 
-  .item.active {
-    display: block;
+  .logo {
+    order: 0;
   }
 
-  /* Tablet menu */
-  @media screen and (min-width: 600px) {
-    .logo {
-      flex: 1;
-    }
-
-    .toggle {
-      order: 1;
-      margin-right: 5px;
-    }
-
-    .item.button {
-      order: 3;
-    }
+  .button
+  .power {
+    order: 2;
+    border: 0;
   }
 
-  /* Desktop menu */
-  @media screen and (min-width: 900px) {
-    .item {
-      display: block;
-      width: auto;
-      order: 1;
-    }
-
-    .toggle {
-      display: none;
-    }
-
-    .logo {
-      order: 0;
-    }
-
-    .button {
-      order: 2;
-      border: 0;
-    }
-
-    .menu li.button {
-      border-left: 1px $menuLineColor solid;
-      border-top: none;
-    }
-
-    .menu li {
-      padding: 15px 10px;
-    }
+  .menu {
+    height: $menuDesktopHeight;
   }
 
-  .star {
-    color: $navTextColor
+  .menu li.button {
+    border-left: 1px $menuLineColor solid;
+    border-top: none;
   }
+
+  .menu li {
+    padding: 15px 10px;
+    height: 100%;
+  }
+}

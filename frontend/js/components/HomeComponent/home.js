@@ -1,6 +1,6 @@
-import './home.scss';
-import intro from '../../../assets/video/intro.mp4';
 import { QuotationBuilder } from '../../common/QuotationBuilder';
+import intro from '../../../assets/video/intro.mp4';
+import './home.scss';
 
 const createVideo = () => {
   const video = $('<video/>', {
@@ -19,8 +19,14 @@ const createVideo = () => {
 export const home = () => {
   const fragment = $(new DocumentFragment());
 
+  const html = `<div class="homeContainer"></div>`;
+
   fragment.append(createVideo())
-          .append(new QuotationBuilder().build(8000, 500));
+          .append(html);
+
+  const quatation = new QuotationBuilder();
+
+  quatation.build(8000, 500);
 
   return fragment;
 };

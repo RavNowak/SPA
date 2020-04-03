@@ -1,7 +1,7 @@
-import './services.scss';
-import { treatmentService } from '../../services/treatmentsService';
 import { Offers } from '../../common/Offers';
 import { InfoBox } from '../../common/PopUpBox';
+import { treatmentService } from '../../services/treatmentsService';
+import './services.scss';
 
 const TagCloud = require('TagCloud');
 
@@ -40,9 +40,9 @@ const createSphere = () => {
           .append(createServiceDescription(service))
           .append(createServiceButton())
           .slideDown('500');
-      });
+      })
     })
-  });
+  })
 
   return html;
 }
@@ -62,8 +62,8 @@ const createServiceName = (service) => {
     $('#serviceName').css({
       "text-align": "center",
       "font-weight": "600"
-    });
-  });
+    })
+  })
 
   return html;
 }
@@ -88,8 +88,8 @@ const createServiceDescription = (service) => {
     $('#serviceDescription').css({
       "text-align": "center",
       "font-style": "italic"
-    });
-  });
+    })
+  })
 
   return html;
 }
@@ -101,11 +101,11 @@ const createSingleServiceInfo = () => {
     const info = `<div id="initMessage">Choose the treatment you are interested in</div>`;
 
     $('#initMessage').ready(() => {
-      $('#initMessage').css({"text-align":"center"})
+      $('#initMessage').css({ "text-align": "center" })
     })
 
     $('.singleService').append(info);
-  });
+  })
 
   return html;
 }
