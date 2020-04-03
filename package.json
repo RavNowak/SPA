@@ -4,8 +4,9 @@
   "description": "spa page",
   "main": "index.js",
   "scripts": {
-    "start:rest": "nodemon ./backend/server.js",
-    "start:app": "parcel -p 3000 ./frontend/htdocs/index.html --open --out-dir docs --public-url /",
+    "rest": "nodemon ./backend/server.js",
+    "start": "parcel ./frontend/htdocs/index.html --out-dir docs",
+    "build": "parcel build ./frontend/htdocs/index.html --out-dir docs --public-url ./",
     "deploy": "git add . && git commit -m \"deploy commit\" && git push origin master"
   },
   "repository": {
