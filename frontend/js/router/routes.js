@@ -5,10 +5,10 @@ import {basket} from '../components/BasketComponent/basket';
 import {contact} from '../components/ContactComponent/contact';
 
 export const routes = [
-    {path: '/SPA/', data: {}, component: home},
-    {path: '/SPA/home/', data: {}, component: home},
-    {path: '/SPA/hotel/', data: {}, component: hotel},
-    {path: '/SPA/services/', data: {}, component: services},
-    {path: '/SPA/contact/', data: {}, component: contact},
-    {path: '/SPA/basket/', data: {}, component: basket}
+    {path: '/', data: {}, component: home},
+    {path: '/home', data: {}, component: home},
+    {path: '/hotel', data: {}, component: hotel},
+    {path: '/services', data: {}, component: services},
+    {path: '/contact', data: {}, component: contact},
+    {path: '/basket', data: {}, component: basket}
 ];

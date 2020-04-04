@@ -14,7 +14,11 @@ export class Router {
   }
 
   init() {
-    this.navigate(location.pathname)
+    // localStorage.setItem('path', '/');
+    const path = localStorage.getItem('path') || '/';
+
+    // this.navigate(location.pathname);
+    this.navigate(path)
   }
 
   get(path) {
@@ -26,7 +30,8 @@ export class Router {
   }
 
   navigate(path, data = {}) {
-    console.log(path);
+    // console.log(window.location.pathname.slice(1));
+    // console.log("/SPA/".slice(5))
     if (this.has(path)) {
       const { component } = this.get(path);
 
