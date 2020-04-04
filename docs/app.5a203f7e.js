@@ -2090,7 +2090,7 @@ var createLogOutButton = function createLogOutButton() {
 
 var nav = function nav() {
   var fragment = $(new DocumentFragment());
-  var html = "\n  <nav>\n    <ul class=\"menu\">\n      <li class=\"logo\"><a href=\"home\">IT SPA </a>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n      </li>\n      <li class=\"item\"><a href=\"/SPA/home/\">Home</a></li>\n      <li class=\"item\"><a href=\"/SPA/hotel/\">Hotel</a></li>\n      <li class=\"item\"><a href=\"/SPA/services/\">Services</a></li>\n      <li class=\"item\"><a href=\"/SPA/contact/\">Contact</a></li>\n      <li class=\"item button\"><a href=\"/SPA/basket/\"><i class=\"fas fa-shopping-basket\"></i></a></li>\n      ".concat(createLogOutButton(), "\n      <li class=\"toggle\"><a href=\"#\"><i class=\"fas fa-bars\"></i></a></li>\n    </ul>\n  </nav>");
+  var html = "\n  <nav>\n    <ul class=\"menu\">\n      <li class=\"logo\"><a href=\"home\">IT SPA </a>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n      </li>\n      <li class=\"item\"><a href=\"/SPA#/home/\">Home</a></li>\n      <li class=\"item\"><a href=\"/SPA#/hotel/\">Hotel</a></li>\n      <li class=\"item\"><a href=\"/SPA#/services/\">Services</a></li>\n      <li class=\"item\"><a href=\"/SPA#/contact/\">Contact</a></li>\n      <li class=\"item button\"><a href=\"/SPA#/basket/\"><i class=\"fas fa-shopping-basket\"></i></a></li>\n      ".concat(createLogOutButton(), "\n      <li class=\"toggle\"><a href=\"#\"><i class=\"fas fa-bars\"></i></a></li>\n    </ul>\n  </nav>");
   fragment.append(html);
   toogleMobileAndTabletIcon();
   return fragment;
@@ -2209,7 +2209,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53829" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55102" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
