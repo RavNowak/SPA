@@ -1994,27 +1994,27 @@ var _basket = require("../components/BasketComponent/basket");
 var _contact = require("../components/ContactComponent/contact");
 
 var routes = [{
-  path: '/',
+  path: '/SPA/',
   data: {},
   component: _home.home
 }, {
-  path: '/home',
+  path: '/SPA/home',
   data: {},
   component: _home.home
 }, {
-  path: '/hotel',
+  path: '/SPA/hotel',
   data: {},
   component: _hotel.hotel
 }, {
-  path: '/services',
+  path: '/SPA/services',
   data: {},
   component: _services.services
 }, {
-  path: '/contact',
+  path: '/SPA/contact',
   data: {},
   component: _contact.contact
 }, {
-  path: '/basket',
+  path: '/SPA/basket',
   data: {},
   component: _basket.basket
 }];
@@ -2090,7 +2090,7 @@ var createLogOutButton = function createLogOutButton() {
 
 var nav = function nav() {
   var fragment = $(new DocumentFragment());
-  var html = "\n  <nav>\n    <ul class=\"menu\">\n      <li class=\"logo\"><a href=\"home\">IT SPA </a>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n      </li>\n      <li class=\"item\"><a href=\"home\">Home</a></li>\n      <li class=\"item\"><a href=\"hotel\">Hotel</a></li>\n      <li class=\"item\"><a href=\"services\">Services</a></li>\n      <li class=\"item\"><a href=\"contact\">Contact</a></li>\n      <li class=\"item button\"><a href=\"basket\"><i class=\"fas fa-shopping-basket\"></i></a></li>\n      ".concat(createLogOutButton(), "\n      <li class=\"toggle\"><a href=\"#\"><i class=\"fas fa-bars\"></i></a></li>\n    </ul>\n  </nav>");
+  var html = "\n  <nav>\n    <ul class=\"menu\">\n      <li class=\"logo\"><a href=\"home\">IT SPA </a>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n        <i class=\"far fa-star star\"></i>\n      </li>\n      <li class=\"item\"><a href=\"/SPA/home\">Home</a></li>\n      <li class=\"item\"><a href=\"/SPA/hotel\">Hotel</a></li>\n      <li class=\"item\"><a href=\"/SPA/services\">Services</a></li>\n      <li class=\"item\"><a href=\"/SPA/contact\">Contact</a></li>\n      <li class=\"item button\"><a href=\"/SPA/basket\"><i class=\"fas fa-shopping-basket\"></i></a></li>\n      ".concat(createLogOutButton(), "\n      <li class=\"toggle\"><a href=\"#\"><i class=\"fas fa-bars\"></i></a></li>\n    </ul>\n  </nav>");
   fragment.append(html);
   toogleMobileAndTabletIcon();
   return fragment;
@@ -2154,6 +2154,7 @@ function () {
     key: "navigate",
     value: function navigate(path) {
       var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+      console.log(path);
 
       if (this.has(path)) {
         var _this$get = this.get(path),
@@ -2208,7 +2209,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52669" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53829" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

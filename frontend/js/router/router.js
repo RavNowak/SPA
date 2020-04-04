@@ -26,6 +26,7 @@ export class Router {
   }
 
   navigate(path, data = {}) {
+    console.log(path);
     if (this.has(path)) {
       const { component } = this.get(path);
 

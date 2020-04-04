@@ -51,7 +51,7 @@ export const nav = () => {
       <li class="item"><a href="/SPA/home">Home</a></li>
       <li class="item"><a href="/SPA/hotel">Hotel</a></li>
       <li class="item"><a href="/SPA/services">Services</a></li>
-      <li class="item"><a href="SPA/contact">Contact</a></li>
+      <li class="item"><a href="/SPA/contact">Contact</a></li>
       <li class="item button"><a href="/SPA/basket"><i class="fas fa-shopping-basket"></i></a></li>
       ${createLogOutButton()}
       <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
