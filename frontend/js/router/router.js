@@ -15,7 +15,7 @@ export class Router {
 
   init() {
     const path = localStorage.getItem('path') || '/';
-
+    console.log('path in init: ', path);
     // this.navigate(location.pathname);
     this.navigate(path)
   }
