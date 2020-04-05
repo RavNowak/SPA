@@ -13,6 +13,8 @@ $arrowBackgroundColorHover: rgba(0, 0, 0, 0.200);
   background-image: url('../../../assets/img/hotel.jpg');
   height: 100vh;
   width: 100%;
+  min-width: 100%;
+  min-height: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -25,6 +27,9 @@ $arrowBackgroundColorHover: rgba(0, 0, 0, 0.200);
 /* Mobile and Tablet*/
 .hotelContainer {
   width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mainPanel {
@@ -38,6 +43,7 @@ $arrowBackgroundColorHover: rgba(0, 0, 0, 0.200);
 
 .settingsPanel {
   width: 80%;
+  height: 410px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -72,8 +78,8 @@ $arrowBackgroundColorHover: rgba(0, 0, 0, 0.200);
   color: $settingsPanelTextColor;
   background-color: $checkBoxBackgroundColor;
   transition: background-color .5s ease-in-out;
-  width: 95px;
-  height: 95px;
+  width: 70px;
+  height: 70px;
   margin: 5px;
 }
 
@@ -135,6 +141,7 @@ $arrowBackgroundColorHover: rgba(0, 0, 0, 0.200);
 
 .roomPanel {
   width: 80%;
+  height: 410px;
   display: flex;
   justify-content: space-between;
   background-color: $settingsPanelBackgroundColor;
@@ -209,25 +216,20 @@ $arrowBackgroundColorHover: rgba(0, 0, 0, 0.200);
   .mainPanel {
     flex-direction: row;
     justify-content: space-between;
-    height: 90%;
+    height: 410px;
     margin: 0;
   }
 
   .settingsPanel {
-    width: 26%;
+    width: 300px;
     height: 100%;
     margin-left: 20px;
   }
 
   .roomPanel {
-    width: 26%;
+    width: 300px;
     height: 100%;
     margin-right: 20px;
     margin-top: 0;
-  }
-
-  .checkBoxSetting {
-    width: 70px;
-    height: 70px;
   }
 }

@@ -12,7 +12,7 @@ module.exports = {
 
     for (const user of users) {
       if (user.email === email &&
-        user.password === password)
+        user.password === password) {
         res.send({
           OK: true,
           name: user.name,
@@ -22,8 +22,9 @@ module.exports = {
         });
 
         return;
+      }
     }
 
-    res.send({ OK: false });
+    res.send({ OK: false, message: "Invalid email or password" });
   }
 }

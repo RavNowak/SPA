@@ -1,3 +1,5 @@
+$contactBackgroundColor: rgba(0, 0, 0, 0.231);
+
 .backgroundContact {
   background-image: url('../../../assets/img/contact.jpg');
   height: 100vh;
@@ -11,28 +13,17 @@
   z-index: -1;
 }
 
-.contactContainer {
-  width: 100vw;
-}
-
-.contactPanel {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  height: calc(100vh - 46px);
-  margin: 0;
-}
-
 .contact {
+  position: fixed;
+  bottom: 0;
   width: 100%;
+  height: 180px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: auto;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.231);
-  padding-bottom: 20px;
+  background-color: $contactBackgroundColor;
 }
 
 .questionSection {
@@ -41,14 +32,12 @@
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  height: 60px;
-  margin-top: 10px;
   width: 100%;
 }
 
 .contactText {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .nameSection {
@@ -56,7 +45,6 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: 10px;
 }
 
 .telSection {
@@ -64,7 +52,6 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: 15px;
 }
 
 .emailSection {
@@ -72,15 +59,16 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: 15px;
 }
 
 .name {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 10px;
 }
 
 img {
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
 }

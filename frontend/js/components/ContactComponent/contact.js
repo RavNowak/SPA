@@ -23,11 +23,11 @@ const createPictureContact = (data) => {
 const createPhonesContact = (data) => {
   const html = `
   <div class="telSection">
-    <i class="fas fa-phone-alt fa-lg"></i>
+    <i class="fas fa-phone-alt"></i>
     <span class="name">${data.phone}</span>
   </div>
   <div class="telSection">
-    <i class="fas fa-mobile-alt fa-lg"></i>
+    <i class="fas fa-mobile-alt"></i>
     <span class="name">${data.cell}</span>
   </div>`;
 
@@ -37,7 +37,7 @@ const createPhonesContact = (data) => {
 const createEmailContact = (data) => {
   const html = `
   <div class="emailSection">
-    <i class="far fa-envelope fa-lg"></i>
+    <i class="far fa-envelope"></i>
     <span class="name">${data.email}</span>
   </div>`
 
@@ -64,11 +64,7 @@ export const contact = () => {
 
   const html = `
   <div class="backgroundContact"></div>
-  <div class="contactContainer">
-      <div class="contactPanel">
-        ${createContact()}
-      </div>
-  </div>`;
+  ${createContact()}`;
 
   fragment.append(html);
 

@@ -113,7 +113,7 @@ const createLoginButton = () => {
               location.reload();
             }
             else {
-              $('#loginError').text('Invalid login or password');
+              $('#loginError').text(response.message);
             }
           })
         }

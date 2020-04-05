@@ -10,18 +10,18 @@ $basketButtonBackgroundColor: rgba(107, 213, 209, 0.551);
 $basketButtonBackgroundColorHover: rgba(107, 213, 209, 0.349);
 
 .backgroundBasket {
-    background-image: url('../../../assets/img/basket.jpg');
-    background-color: rgba(0, 0, 0, 0.356);
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-  }
+  background-image: url('../../../assets/img/basket.jpg');
+  background-color: rgba(0, 0, 0, 0.356);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
 
 /* Mobile and Tablet*/
 .basketContainer {
@@ -38,7 +38,8 @@ $basketButtonBackgroundColorHover: rgba(107, 213, 209, 0.349);
 }
 
 .basket {
-  width: 80%;
+  width: 300px;
+  height: 410px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,6 +50,8 @@ $basketButtonBackgroundColorHover: rgba(107, 213, 209, 0.349);
 }
 
 .emptyBasket {
+  width: 300px;
+  height: 410px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,6 +74,7 @@ $basketButtonBackgroundColorHover: rgba(107, 213, 209, 0.349);
   align-items: center;
   width: 95%;
   cursor: pointer;
+  padding: 10px;
 }
 
 .singleInfo:hover {
@@ -209,6 +213,7 @@ meter[value="2"]::-moz-meter-bar { background: rgba(255, 255, 0, 0.413); }
 meter[value="3"]::-moz-meter-bar { background: rgba(255, 166, 0, 0.413); }
 meter[value="4"]::-moz-meter-bar { background: rgba(0, 128, 0, 0.413); }
 
+/* Desktop */
 @media screen and (min-width: 900px) {
   .basketContainer {
     height: calc(100vh - 46px);
@@ -219,19 +224,23 @@ meter[value="4"]::-moz-meter-bar { background: rgba(0, 128, 0, 0.413); }
   .mainPanel {
     flex-direction: row;
     justify-content: space-between;
-    height: 90%;
+    height: 410px;
     margin: 0;
   }
   
   .basket {
-    width: 40%;
+    width: 450px;
     height: 100%;
     margin-left: 20px;
   }
 
   .emptyBasket {
-    width: 40%;
+    width: 450px;
     height: 100%;
     margin-left: 20px;
+  }
+
+  .singleInfo {
+    padding: 20px;
   }
 }

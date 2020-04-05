@@ -5,6 +5,8 @@
     background-image: url('../../../assets/img/services.jpg');
     height: 100vh;
     width: 100%;
+    min-width: 100%;
+    min-height: 100%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -30,6 +32,7 @@
 
 .sphere {
   width: 80%;
+  height: 410px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +40,8 @@
 }
 
 .singleService {
-  width: 60%;
+  width: 300px;
+  height: 410px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -89,18 +93,18 @@
   .mainPanel {
     flex-direction: row;
     justify-content: space-between;
-    height: 90%;
+    height: 410px;
     margin: 0;
   }
 
   .sphere {
-    width: 40%;
+    width: 300px;
     height: 100%;
-    margin-left: 20px;
+    margin-left: 60px;
   }
 
   .singleService {
-    width: 26%;
+    width: 300px;
     height: 100%;
     margin-right: 20px;
     margin-top: 0;
