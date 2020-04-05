@@ -44,6 +44,6 @@ export class Router {
       this.outlet.empty().append(badPath());
     }
 
-    history.pushState(data, '', path);
+    // history.pushState(data, '', path);
   }
 }
