@@ -331,7 +331,7 @@ const createConfirmationButton = () => {
 }
 
 const createBasketSummary = () => {
-  if (Cookies.get('isloggedin') === 'false') {
+  if (!Cookies.get('isloggedin') || Cookies.get('isloggedin') == 'false') {
     return createLoginSection();
   }
 

@@ -15,9 +15,9 @@ export class Router {
 
   init() {
     const path = localStorage.getItem('path') || '/';
-    console.log('path in init: ', path);
+    this.navigate(path);
+
     // this.navigate(location.pathname);
-    this.navigate(path)
   }
 
   get(path) {
@@ -29,17 +29,20 @@ export class Router {
   }
 
   navigate(path, data = {}) {
-    // console.log(window.location.pathname.slice(1));
-    // console.log("/SPA/".slice(5))
     if (this.has(path)) {
       const { component } = this.get(path);
 
-      this.outlet.append(nav()).append(component());
+      if(path === '/' || path === '/home') {
+        this.outlet.append(component());
+      }
+      else {
+        this.outlet.append(nav()).append(component());
+      }
 
     } else {
       this.outlet.empty().append(badPath());
     }
 
-    // history.pushState(data, '', path);
+    history.pushState(data, '', path);
   }
 }

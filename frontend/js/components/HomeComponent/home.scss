@@ -3,19 +3,69 @@
 
 $quatationSize: 18px;
 
-.homeIntro {
+.homeBackground {
+  background-image: url('../../../assets/img/home.png');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  // background-position: center center;
+  background-repeat: no-repeat;
   position: fixed;
   right: 0;
   bottom: 0;
   z-index: -1;
+  opacity: 0.95;
+}
+
+@mixin secondary {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+  display: none;
+}
+
+.secondaryHotel {
+  @include secondary;
+  background-image: url('../../../assets/img/hotel.jpg');
+}
+
+.secondaryServices {
+  @include secondary;
+  background-image: url('../../../assets/img/services.jpg');
+}
+
+.secondaryContact {
+  @include secondary;
+  background-image: url('../../../assets/img/contact.jpg');
+}
+
+.secondaryBasket {
+  @include secondary;
+  background-image: url('../../../assets/img/basket.jpg');
 }
 
 .homeContainer {
   width: 100vw;
-  height: calc(100vh - 46px);
-  align-items: center;
-  flex-direction: column;
+  height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.homeCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 300px;
 }
 
 .quotation {
@@ -24,6 +74,58 @@ $quatationSize: 18px;
   font-style: italic;
   width: 100%;
   margin-top: 40px;
-  color: $quoteColor;
-  font-size: $quatationSize;
+  color: white;
+  font-size: 16px;
 }
+
+.circle {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 1px solid black;
+  transition: background-color 0.5s;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgba(78, 75, 69, 0.115);
+  margin: 15px;
+  cursor: pointer;
+}
+
+.circleContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.hotelCircle {
+  background-image: url('../../../assets/img/hotelIcon.png');
+} 
+
+.serviceCircle {
+  background-image: url('../../../assets/img/serviceIcon.png');
+}
+
+.contactCircle {
+  background-image: url('../../../assets/img/contactIcon.png');
+}
+
+.basketCircle {
+  background-image: url('../../../assets/img/basketIcon.png');
+}
+
+.circle:hover {
+  background-color: rgba(21, 36, 71, 0.204);;
+}
+
+.welcomeSpan {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.infoSpan {
+  font-size: 18px;
+  color: white;
+}
+
