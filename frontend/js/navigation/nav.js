@@ -1,3 +1,4 @@
+
 import './nav.scss';
 
 const toogleMobileAndTabletIcon = () => {
@@ -17,7 +18,7 @@ const toogleMobileAndTabletIcon = () => {
 }
 
 const createLogOutButton = () => {
-  const html = `<li class="item power" id="logOutButton"><a><i class="fas fa-power-off"></i></a></li>`;
+  const html = `<li class="item power" id="logOutButton"><a class="link"><i class="fas fa-power-off"></i></a></li>`;
 
   const isLoggedIn = Cookies.get('isloggedin');
 
@@ -41,20 +42,20 @@ export const nav = () => {
   const html = `
   <nav>
     <ul class="menu">
-      <li class="logo"><a href="home">IT SPA </a>
+      <li class="logo"><a href="home" class="link logoa">IT SPA </a>
         <i class="far fa-star star"></i>
         <i class="far fa-star star"></i>
         <i class="far fa-star star"></i>
         <i class="far fa-star star"></i>
         <i class="far fa-star star"></i>
       </li>
-      <li class="item"><a href="home">Home</a></li>
-      <li class="item"><a href="hotel">Hotel</a></li>
-      <li class="item"><a href="services">Services</a></li>
-      <li class="item"><a href="contact">Contact</a></li>
-      <li class="item button"><a href="basket"><i class="fas fa-shopping-basket"></i></a></li>
+      <li class="item"><a href="home" class="link">Home</a></li>
+      <li class="item"><a href="hotel" class="link">Hotel</a></li>
+      <li class="item"><a href="services" class="link">Services</a></li>
+      <li class="item"><a href="contact" class="link">Contact</a></li>
+      <li class="item button"><a href="basket" class="link"><i class="fas fa-shopping-basket"></i></a></li>
       ${createLogOutButton()}
-      <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+      <li class="toggle"><a href="#" class="link"><i class="fas fa-bars"></i></a></li>
     </ul>
   </nav>`
 

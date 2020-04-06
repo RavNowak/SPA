@@ -15,14 +15,21 @@ ul {
   list-style-type: none;
 }
 
-a {
+.link {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding: 15px 5px;
   color: $navTextColor;
   text-decoration: none;
 }
 
+.logoa {
+  width: auto;
+}
+
 .menu li {
   font-size: 17px;
-  padding: 15px 5px;
   white-space: nowrap;
   transition: background-color .4s ease-in-out;
 }
@@ -37,11 +44,11 @@ a {
 
 .menu li.button {
   transition: background-color .4s ease-in-out;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 0 5px;
 }
 
 .power {
+  padding: 0 5px;
   cursor: pointer;
 }
 
@@ -143,8 +150,11 @@ a {
     border-top: none;
   }
 
-  .menu li {
+  .link {
     padding: 15px 10px;
+  }
+
+  .menu li {
     height: 100%;
   }
 }

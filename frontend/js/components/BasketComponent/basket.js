@@ -106,6 +106,7 @@ const createLoginButton = () => {
         }
         else {
           authService.auth($('#login').val(), $('#password').val()).then(response => {
+            console.log(response)
             if (response.OK) {
               $('.endSection').remove();
               $('.basket').append(createConfirmationButton());

@@ -30,7 +30,11 @@ module.exports = {
 
     const data = await fs.readFile(path.resolve(__dirname, './database.json'));
     const jsonData = JSON.parse(data);
-    const newID = jsonData.users[jsonData.users.length - 1].id + 1;
+    let newID = 0;
+
+    if (jsonData.users.length > 0) {
+      newID = jsonData.users[jsonData.users.length - 1].id + 1;
+    }
 
     jsonData.users.push(Object.assign({id: newID}, user));
 

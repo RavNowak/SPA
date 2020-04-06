@@ -15,7 +15,6 @@ export class Router {
 
   init() {
     const path = localStorage.getItem('path') || '/';
-    console.log(path);
     this.navigate(path);
 
     // this.navigate(location.pathname);
@@ -43,7 +42,5 @@ export class Router {
     } else {
       this.outlet.empty().append(badPath());
     }
-
-    // history.pushState(data, '', path);
   }
 }
