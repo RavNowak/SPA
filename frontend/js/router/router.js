@@ -28,7 +28,7 @@ export class Router {
     return this.get(path) !== undefined;
   }
 
-  navigate(path, data = {}) {
+  navigate(path) {
     if (this.has(path)) {
       const { component } = this.get(path);
 

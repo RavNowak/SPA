@@ -1,4 +1,5 @@
 @import '../../../style/popUpBox.scss';
+@import '../../../style/variables.scss';
 
 $crossColor: rgba(255, 255, 255, 0.589);
 $crossHoverColor: rgba(255, 255, 255, 0.989);
@@ -214,7 +215,7 @@ meter[value="4"]::-moz-meter-bar { background: rgba(0, 128, 0, 0.413); }
 /* Desktop */
 @media screen and (min-width: 900px) {
   .basketContainer {
-    height: calc(100vh - 46px);
+    height: calc(100vh - #{$menuDesktopHeight});
     align-items: center;
     display: flex;
   }

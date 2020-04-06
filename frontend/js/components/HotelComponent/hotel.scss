@@ -53,7 +53,7 @@ $arrowBackgroundColorHover: rgba(0, 0, 0, 0.200);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: $settingsPanelBackgroundColor;
+  background-color: $darkTheme;
   width: 100%;
   margin-bottom: 10px;
   padding: 0px 20px;
@@ -61,7 +61,7 @@ $arrowBackgroundColorHover: rgba(0, 0, 0, 0.200);
 }
 
 .optionsBox {
-  background-color: $settingsPanelBackgroundColor;
+  background-color: $darkTheme;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -105,7 +105,7 @@ $arrowBackgroundColorHover: rgba(0, 0, 0, 0.200);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: $settingsPanelBackgroundColor;
+  background-color: $darkTheme;
   width: 100%;
   margin-bottom: 10px;
   padding: 5px 20px;
@@ -116,7 +116,7 @@ $arrowBackgroundColorHover: rgba(0, 0, 0, 0.200);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $settingsPanelBackgroundColor;
+  background-color: $darkTheme;
   width: 100%;
   margin-bottom: 10px;
   padding: 8px 0;
@@ -144,7 +144,7 @@ $arrowBackgroundColorHover: rgba(0, 0, 0, 0.200);
   height: 510px;
   display: flex;
   justify-content: space-between;
-  background-color: $settingsPanelBackgroundColor;
+  background-color: $darkTheme;
   margin-top: 20px;
 }
 
@@ -208,7 +208,7 @@ $arrowBackgroundColorHover: rgba(0, 0, 0, 0.200);
 /* Desktop */
 @media screen and (min-width: 900px) {
   .hotelContainer {
-    height: calc(100vh - 46px);
+    height: calc(100vh - #{$menuDesktopHeight});
     align-items: center;
     display: flex;
   }

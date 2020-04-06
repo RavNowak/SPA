@@ -1,6 +1,8 @@
 @import '../../../style/sphere.scss';
 @import '../../../style/variables.scss';
 
+$singleServiceTextColor: rgba(255, 255, 255, 0.589);
+
 .backgroundServices {
     background-image: url('../../../assets/img/services.jpg');
     height: 100vh;
@@ -46,7 +48,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: $singleServiceBackgroundColor;
+  background-color: $darkTheme;
   margin-top: 20px;
   font-size: 16px;
   color: $singleServiceTextColor;
@@ -85,7 +87,7 @@
 /* Desktop */
 @media screen and (min-width: 900px) {
   .servicesContainer {
-    height: calc(100vh - 46px);
+    height: calc(100vh - #{$menuDesktopHeight});
     align-items: center;
     display: flex;
   }
