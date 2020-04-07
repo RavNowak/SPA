@@ -1,73 +1,54 @@
 # IT SPA
 
-https://ravnowak.github.io/SPA/
+LIVE: https://ravnowak.github.io/SPA/
 
-Projekt polega na napisaniu aplikacji Single Page Application dla ośrodka SPA dedykowanego programistom.
+The project involves writing a Single Page Application for a SPA center dedicated to programmers.
 
-Aplikacja powinna umożliwiać: 
+The application should allow: 
 
-- Przeglądanie dostępnych zabiegów
-- Dodawanie wybranych zabiegów do koszyka
-- Wybór daty przyjazdu i wyjazdu oraz pokoju  
-- Rejestrację użytkownika (opcjonalnie)
-- Logowanie użytkownika (opcjonalnie)
-- Podsumowanie składanego zamówienia
+- Browse available treatments
+- Adding selected treatments to the basket
+- Choice of arrival and departure date and room  
+- User registration (optional)
+- User login (optional)
+- Summary of the order
 
 ## Booking
 
-Stwórz komponent koszyka, który wyświetla podsumowanie zamówienia.
-Koszyk powinien też umożliwiać nanoszenie poprawek do zamówienia.
-Użytkownik nie może wybrać daty przyjazdu wcześniejszej niż bieżąca.
-Wybrana data wyjazdu nie może być dalsza niż rok od daty przyjazdu.
+Create a basket component that displays a summary of the order.
+The basket should also allow corrections to be made to the order.
+Users cannot select an earlier arrival date than the current one.
+The selected departure date cannot be more than a year from the date of arrival.
 
-## Rejestracja
+## Registration
 
-Stwórz komponent rejestracji użytkownika z opcjonalnym miernikiem siły hasła.
-Rejestracja polega na zapisaniu danych użytkownika (e-mail i hasła) w pliku `database.json`.
-Nie powinna być możliwa rejestracja użytkownika o identycznym adresie e-mail.
+Create a user registration component with an optional password strength meter.
+Registration consists in saving user data (e-mail and password) in the file `database.json`.
+It should not be possible to register a user with an identical e-mail address.
 
-## Logowanie
+## Log in
 
-Stwórz komponent logowania użytkownika, który opcjonalnie będzie wyświetlał avatar użytkownika.
-Logowanie polega na porównaniu podanych przez użytkownika danych (e-mail i hasła) z tymi w pliku `database.json`.
+Create a user login component that will optionally display the user's avatar.
+Logging in consists in comparing the data provided by the user (e-mail and password) with those in the file `database.json`.
 
-## Pokoje
+## Rooms
 
-Bazę przykładowych pokoi w ośrodku IT SPA znajdziesz w pliku `database.json`.
-Możesz dowolnie zmienić istniejące pokoje lub dodać swoje własne. 
+The database of examples of rooms in the IT SPA center can be found in the file `database.json`.
+You can freely change existing rooms or add your own.
 
-## Zabiegi 
+## Treatments 
 
-Bazę przykładowych zabiegów ośrodka IT SPA znajdziesz w pliku `database.json`.
-Możesz dowolnie zmienić istniejące zabiegi lub dodać swoje własne. 
+The database of examples of IT SPA center treatments can be found in the file `database.json`.
+You can change existing treatments or add your own.
 
-## Koszyk
+## Basket
 
-Stwórz komponent koszyka, który po najechaniu myszką będzie wyświetlał dodane pokoje i zabiegi.
-Koszyk musi przetrwać przeładowanie strony, dlatego spróbuj wykorzystać ciasteczka (Cookies).
+Create a basket component that will display added rooms and treatments when you hover your mouse over it.
+The cart must survive the page reloading, so try using cookies.
 
-## Technologie
+## Stack
 
 - HTML, Bootstrap
 - CSS, Sass, LESS
 - JavaScript, jQuery
 - Node, Express
-
-Postaraj się korzystać z ECMAScript 6.
-
-Do interakcji z serwerem bazy danych wykorzystaj `fetch`.
-Jeśli lubisz eksperymenty, zainstaluj pakiet `axios`.
-
-## Ocena
-
-Zamieść gotowy projekt na swoim GitHubie.
-Postaraj się oddać projekt do końca maja 2020.
-
-## Przykłady
-
-Strony, którymi możesz się inspirować: 
-
-- afrodyta-spa.pl
-- bukowypark.pl
-- hotelczarnypotok.pl
-- hotelniemcza.pl
