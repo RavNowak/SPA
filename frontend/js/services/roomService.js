@@ -1,5 +1,7 @@
+import { origin } from './origin';
+
 export const roomService = {
     getRooms: () => {
-      return fetch('https://itspa.herokuapp.com/rooms').then(response => response.json());
+      return fetch(origin + '/rooms').then(response => response.json());
     }
 }

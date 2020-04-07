@@ -7,9 +7,7 @@ module.exports = {
 
     for (let user of users) {
       if (user.email === newUser.email) {
-        res.send({ OK: false, message: `${user.email} already exists` });
-
-        return;
+        return res.send({ OK: false, message: `${user.email} already exists` });
       }
     }
 

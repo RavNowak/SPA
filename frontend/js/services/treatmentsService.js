@@ -1,5 +1,7 @@
+import { origin } from './origin';
+
 export const treatmentService = {
     getServices: () => {
-      return fetch('https://itspa.herokuapp.com/services').then(response => response.json());
+      return fetch(origin + '/services').then(response => response.json());
     }
 }

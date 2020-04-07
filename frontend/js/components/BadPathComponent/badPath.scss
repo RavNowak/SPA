@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -13,4 +14,9 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+.wrong {
+  margin: 20px auto;
+  color: rgba(0, 0, 0, 0.796);
 }

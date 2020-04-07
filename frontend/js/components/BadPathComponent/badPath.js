@@ -5,6 +5,7 @@ export const badPath = () => {
 
   const html = `
   <div class="badPathContainer">
+    <h1 class="wrong">Something went wrong :(<h1>
     <div class="badPathImg"></div>
   </div>`
 

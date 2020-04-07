@@ -1,3 +1,5 @@
+import { origin } from './origin';
+
 export const accountService = {
     create: (name, surname, email, tel, pass) => {
       let headers = new Headers();
@@ -12,7 +14,7 @@ export const accountService = {
           password: pass,
       }
   
-      return fetch('https://itspa.herokuapp.com/create',{ method:'POST', headers: headers, body: JSON.stringify({user: user}) }).then(response => response.json());
+      return fetch(origin + '/create',{ method:'POST', headers: headers, body: JSON.stringify({user: user}) }).then(response => response.json());
     }
 }
     

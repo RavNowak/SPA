@@ -11,7 +11,14 @@ const { accountController } = require('../controllers/accountController');
 
 const router = express.Router();
 
-router.use(cors());
+router.use(cors({
+  origin: [
+    'http://localhost:1234',
+    'https://ravnowak.github.io'
+],
+  credentials: true
+}));
+
 router.use(bodyParser.json());
 
 router.use(logController);
